@@ -80,3 +80,18 @@ class ModelTrainer:
             "calibrator": calibrator,
             "oof_metrics": ModelEvaluator.evaluate_classification(y_win, calibrator.predict_proba(oof_raw_prob))
         }
+@staticmethod
+    def optimize_ensemble_weight(y_true: np.ndarray, p_clf: np.ndarray, p_reg_prob: np.ndarray) -> float:
+        """OOF 예측 결과에서 LogLoss를 최소화하는 앙상블 가중치 w를 탐색합니다."""
+        best_w = 0.5
+        best_loss = float("inf")
+        
+        for w in np.linspace(0, 1, 21):
+            p_blend = w * p_clf + (1 - w) * p_reg_prob
+            p_blend = np.clip(p_blend, 1e-15, 1.0 - 1e-15)
+            from sklearn.metrics import log_loss
+            loss = log_loss(y_true, p_blend)
+            if loss < best_loss:
+                best_loss = loss
+                best_w = float(w)
+        return best_w
