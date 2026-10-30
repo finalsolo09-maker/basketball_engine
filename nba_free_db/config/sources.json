@@ -1,0 +1,32 @@
+{
+  "NBA_BALLDONTLIE": {
+    "state": "ENABLED_STAGING",
+    "sport": "NBA",
+    "api": "https://api.balldontlie.io/v1",
+    "documentation": "https://docs.balldontlie.io/",
+    "terms": "https://www.balldontlie.io/terms.html",
+    "free_endpoints": [
+      "teams",
+      "players",
+      "games"
+    ],
+    "rate_limit_requests_per_minute": 5,
+    "operational_promotion": false
+  },
+  "KBL_UNOFFICIAL_API": {
+    "state": "HOLD_RIGHTS",
+    "sport": "KBL",
+    "free_endpoints": [],
+    "note": "No automatic collection until usage and training rights verified."
+  },
+  "SPORTSDATAVERSE_NBA": {
+    "state": "HOLD_UPSTREAM_RIGHTS",
+    "sport": "NBA",
+    "free_endpoints": []
+  },
+  "NBA_API_UNOFFICIAL": {
+    "state": "HOLD_UPSTREAM_RIGHTS",
+    "sport": "NBA",
+    "free_endpoints": []
+  }
+}
