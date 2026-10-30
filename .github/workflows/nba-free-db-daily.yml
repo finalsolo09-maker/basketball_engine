@@ -1,0 +1,56 @@
+name: NBA free API staging (private only)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: nba-free-db-staging
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: ${{ github.event.repository.private == true }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      BDL_API_KEY: ${{ secrets.BDL_API_KEY }}
+    defaults:
+      run:
+        working-directory: nba_free_db
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.txt
+      - name: Require secret without printing it
+        shell: bash
+        run: |
+          if [ -z "$BDL_API_KEY" ]; then echo 'BLOCKED_NO_SECRET'; exit 1; fi
+      - name: Collect free NBA data to isolated candidate database
+        run: python auto_nba_update.py --workdir data --outdir candidates daily --execute --days-back 3 --players-pages 2 --season 2026
+      - name: Audit SQLite and raw-response hashes
+        run: python auto_nba_update.py --workdir data audit
+      - name: Persist only to private repo
+        shell: bash
+        run: |
+          if [ "${{ github.event.repository.private }}" != true ]; then exit 1; fi
+          cd ..
+          git config user.name 'nba-db-bot'
+          git config user.email 'nba-db-bot@users.noreply.github.com'
+          git add nba_free_db/data nba_free_db/candidates
+          if ! git diff --cached --quiet; then
+            git commit -m 'NBA free API staging update (research only)'
+            git push
+          fi
+      - name: Save audit result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nba-staging-${{ github.run_id }}
+          path: |
+            nba_free_db/candidates/LAST_RUN_REPORT.json
+            nba_free_db/candidates/LATEST_CANDIDATE.json
+          if-no-files-found: warn
+          retention-days: 30
