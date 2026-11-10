@@ -1,0 +1,118 @@
+[
+  {
+    "task": "players",
+    "endpoint": "https://api.kbl.or.kr/players",
+    "observed_utc": "2026-11-10T02:06:34.707450+00:00",
+    "http": 200,
+    "sha256": "1b8052d83e2ccb6d4d3bd24ddfa93a58bc5d27b06e68979efa091d5df6f69323",
+    "bytes": 388660,
+    "usable": 1498,
+    "sample": [
+      {
+        "pcode": "290801",
+        "player_name": "CJ 레슬리",
+        "team_code": "70",
+        "player_name_en": "CJ 레슬리",
+        "position": "FD",
+        "player_flag": "1"
+      },
+      {
+        "pcode": "235041",
+        "player_name": "G.J 헌터",
+        "team_code": "35",
+        "player_name_en": "Gray Hunter",
+        "position": "GD",
+        "player_flag": "1"
+      },
+      {
+        "pcode": "210070",
+        "player_name": "R.F. 바셋",
+        "team_code": "60",
+        "player_name_en": "R.F. Bassette",
+        "position": "C",
+        "player_flag": "1"
+      }
+    ]
+  },
+  {
+    "task": "box_2025",
+    "endpoint": "https://api.kbl.or.kr/match/S47G01N49/player-stat",
+    "observed_utc": "2026-11-10T02:06:40.489705+00:00",
+    "http": 200,
+    "sha256": "41533dd22a3a1dd2b01dee3f45ac84caafd4ad736b2daeb8904cc85cd5b8d54c",
+    "bytes": 19410,
+    "usable": 24,
+    "sample": [
+      {
+        "pcode": "290284",
+        "name": "허일영",
+        "team_code": "50",
+        "home_away": "2",
+        "started": 0,
+        "points": 10,
+        "min": 20,
+        "sec": 38,
+        "two_point_made": 2,
+        "two_point_attempts": 3,
+        "fg3m": 2,
+        "fg3a": 4,
+        "ftm": 0,
+        "fta": 0,
+        "reb": 2,
+        "ast": 1,
+        "tov": 2,
+        "offrtg": 142.9,
+        "defrtg": 106.8,
+        "usage": 23.0
+      }
+    ]
+  },
+  {
+    "task": "match_2025",
+    "endpoint": "https://api.kbl.or.kr/match/S47G01N49",
+    "observed_utc": "2026-11-10T02:06:42.846647+00:00",
+    "http": 200,
+    "sha256": "63c2cced3484b62c14fdafeefbfda83032ac224c7f47d1bf6882ded96bb4d03d",
+    "bytes": 1392,
+    "type": "<class 'list'>",
+    "schema_keys": [
+      "game",
+      "teams",
+      "teamrecords"
+    ],
+    "preview": "{'game': {'gmkey': 'S47G01N49', 'glkey': 'S47G01', 'seasonCode': 47, 'seasonGrade': 1, 'seasonCategoryName': '정규시즌', 'gameCode': '01', 'gameNo': 49, 'gameDate': '20251101', 'tcodeH': '66', 'tcodeA': '50', 'tnameH': '고양 소노', 'tnameA': '창원 LG', 'tnameFH': '고양 소노 스카이거너스', 'tnameFA': '창원 LG 세이커스', 'seas"
+  },
+  {
+    "task": "box_2026",
+    "endpoint": "https://api.kbl.or.kr/match/S49G01N57/player-stat",
+    "observed_utc": "2026-11-10T02:06:44.913005+00:00",
+    "http": 200,
+    "sha256": "eac88ed5089dfca78ea63cf45f50962c96ce98b9cd3e98242aaed391cc705d23",
+    "bytes": 19434,
+    "usable": 24,
+    "sample": [
+      {
+        "pcode": "290381",
+        "name": "이정현",
+        "team_code": "16",
+        "home_away": "1",
+        "started": 0,
+        "points": 0,
+        "min": 2,
+        "sec": 0,
+        "two_point_made": 0,
+        "two_point_attempts": 0,
+        "fg3m": 0,
+        "fg3a": 0,
+        "ftm": 0,
+        "fta": 0,
+        "reb": 0,
+        "ast": 0,
+        "tov": 0,
+        "offrtg": 0.0,
+        "defrtg": 101.0,
+        "usage": 0.0
+      }
+    ]
+  }
+]
