@@ -1,0 +1,63 @@
+{
+  "started": "2026-11-10T02:09:51.268474+00:00",
+  "finished": "2026-11-10T02:15:53.254891+00:00",
+  "api_docs": "https://py.sportsdataverse.org/docs/kbl/reference/kbl",
+  "source_dates": [
+    [
+      "20251001",
+      "20251231",
+      "2025-26"
+    ],
+    [
+      "20260101",
+      "20260531",
+      "2025-26"
+    ],
+    [
+      "20261001",
+      "20261109",
+      "2026-27"
+    ]
+  ],
+  "schedule_hits": 332,
+  "scheduled_2025_26": 270,
+  "scheduled_2026_27": 62,
+  "games_passed": 331,
+  "games_passed_2025_26": 269,
+  "games_passed_2026_27": 62,
+  "player_game_rows": 7944,
+  "distinct_pcode": 225,
+  "errors": [
+    {
+      "gmkey": "S47G01N52",
+      "error": "ValueError('score_sum_mismatch home=45 away=71')"
+    }
+  ],
+  "schedule_sources": [
+    {
+      "url": "https://api.kbl.or.kr/match/list?fromDate=20251001&toDate=20251231",
+      "sha256": "2a66108eaa9e8f9f2137ba235c43bd9f6dfcf1a983c1947555efe136741bf5e2",
+      "bytes": 121395,
+      "observed_at_utc": "2026-11-10T02:09:52.336385+00:00",
+      "matched_games": 132
+    },
+    {
+      "url": "https://api.kbl.or.kr/match/list?fromDate=20260101&toDate=20260531",
+      "sha256": "da9607d7fd1f92b2f726b0beadce7626ec87749fbf5717d3da112da9c7c6027f",
+      "bytes": 151866,
+      "observed_at_utc": "2026-11-10T02:09:53.412168+00:00",
+      "matched_games": 270
+    },
+    {
+      "url": "https://api.kbl.or.kr/match/list?fromDate=20261001&toDate=20261109",
+      "sha256": "baadb40e3828bed9519ec9d3de32105b887e654e18d93131fb6de9573ef737df",
+      "bytes": 47882,
+      "observed_at_utc": "2026-11-10T02:09:54.356653+00:00",
+      "matched_games": 332
+    }
+  ],
+  "grade": "POSTGAME_SNAPSHOT_AT_2026_11_10_REPLAY_PREGAME_SHOULD_FILTER_DATE",
+  "licensing": "RESEARCH_ONLY_NO_LIVE_REUSE_APPROVAL",
+  "no_original_p0_modified": true,
+  "game_score_check": "REQUIRED_FOR_ALL_ACCEPTED_GAMES"
+}

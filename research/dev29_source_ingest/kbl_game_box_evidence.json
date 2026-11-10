@@ -1,0 +1,2650 @@
+[
+ {
+  "gmkey": "S47G01N1",
+  "date": "20251003",
+  "players": 24,
+  "sha256": "a5250adc3ca4d49bae78b9bca4100d55da379e0870259966a54e63942ba80ce6",
+  "observed_at_utc": "2026-11-10T02:09:55.175901+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N2",
+  "date": "20251003",
+  "players": 24,
+  "sha256": "620bdaf9bcb4efee8a4feb72dbfac23aa0d4796c5cd1ed066603fd86c0d77341",
+  "observed_at_utc": "2026-11-10T02:09:56.400347+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N3",
+  "date": "20251003",
+  "players": 24,
+  "sha256": "60bea852e601dc329f0cd707c35aa529b5fc3116865d95bcb05328b43c34dc5f",
+  "observed_at_utc": "2026-11-10T02:09:57.490019+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N4",
+  "date": "20251004",
+  "players": 24,
+  "sha256": "5e08c2f0ef91e1f7c306790bf4991016237a37f1beb3f81533a93b967e264510",
+  "observed_at_utc": "2026-11-10T02:09:58.579529+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N5",
+  "date": "20251004",
+  "players": 24,
+  "sha256": "5a1f9097b5e858e64cacc1baf6aae88aa4f92843cbd3a0b8a0b76d5fd8177139",
+  "observed_at_utc": "2026-11-10T02:09:59.500240+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N6",
+  "date": "20251004",
+  "players": 24,
+  "sha256": "253a46f2cf8691433f9b6b08ea409d02278db49cdc097b49abbaeaf44ad187e7",
+  "observed_at_utc": "2026-11-10T02:10:00.752759+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N7",
+  "date": "20251005",
+  "players": 24,
+  "sha256": "576645599898735a055fa896e0853a0dc5bd83185bc31cd6685b5e1577e2874d",
+  "observed_at_utc": "2026-11-10T02:10:01.675777+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N8",
+  "date": "20251005",
+  "players": 24,
+  "sha256": "3e4f2c62a858e281c12f370e8fd22f7504821e2646a26845947751d679bfeed5",
+  "observed_at_utc": "2026-11-10T02:10:02.756172+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N9",
+  "date": "20251005",
+  "players": 24,
+  "sha256": "b4b73b95737fa4b7ce68fb8b3c57146b080bb6ed0f3f6c395bf462d6806d2d9b",
+  "observed_at_utc": "2026-11-10T02:10:03.823267+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N10",
+  "date": "20251006",
+  "players": 24,
+  "sha256": "66575b0c17d72c3f3eda9859dba1a81627ca89aee5680d05828366a3bab67557",
+  "observed_at_utc": "2026-11-10T02:10:04.895021+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N11",
+  "date": "20251007",
+  "players": 24,
+  "sha256": "2f44d60470da6cbf164c94dd85082d01b0f44b55f42ce978e20f4f56ed9461a9",
+  "observed_at_utc": "2026-11-10T02:10:05.975104+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N12",
+  "date": "20251008",
+  "players": 24,
+  "sha256": "e2992f7630f348bc515da2d9e41622d690aeaabbfb79f3f2d39267b09cdfbd4c",
+  "observed_at_utc": "2026-11-10T02:10:07.222685+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N13",
+  "date": "20251008",
+  "players": 24,
+  "sha256": "3e5eaca8c8404ec9d8b4127ef553ed5d75837c5cbd0bbcc3256b735ecbc0aa27",
+  "observed_at_utc": "2026-11-10T02:10:08.138277+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N14",
+  "date": "20251009",
+  "players": 24,
+  "sha256": "20fb550cf4659870de3413aebe5b252ab05d764bbb4919e6c6e172b038342efa",
+  "observed_at_utc": "2026-11-10T02:10:09.371260+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N15",
+  "date": "20251010",
+  "players": 24,
+  "sha256": "efa0ddcfe92fb710d4d85f20fcf1b1436abf452cd68561f1df59d64a9fb5c96e",
+  "observed_at_utc": "2026-11-10T02:10:11.048140+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N16",
+  "date": "20251011",
+  "players": 24,
+  "sha256": "47a619a00e136731ac4da0f3efbdfa9fc11b08860eded82088f48d6957fc1261",
+  "observed_at_utc": "2026-11-10T02:10:11.713329+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N17",
+  "date": "20251011",
+  "players": 24,
+  "sha256": "35f225caf098e58deb6f39fd313eef898f24ddac4e2f8e16e6a2413be8a07a70",
+  "observed_at_utc": "2026-11-10T02:10:12.940146+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N18",
+  "date": "20251011",
+  "players": 24,
+  "sha256": "c0ac63cdae1506b9615ed2013981b4e09fe933a6852e5f9a64cc7d0976cf0072",
+  "observed_at_utc": "2026-11-10T02:10:13.874262+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N19",
+  "date": "20251012",
+  "players": 24,
+  "sha256": "55244dcf710bad1fa8d4b854115341ab9e426d0f65382ae80f67093d62a4530c",
+  "observed_at_utc": "2026-11-10T02:10:14.954386+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N20",
+  "date": "20251012",
+  "players": 24,
+  "sha256": "e1baff4a9a80bded019c1603b61211bba755380b80b32b023ce1b949d1fcbe21",
+  "observed_at_utc": "2026-11-10T02:10:16.166637+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N21",
+  "date": "20251012",
+  "players": 24,
+  "sha256": "bb18da0e63c20d98545ac93138215578b614a7ff38a98336f433947fa656075a",
+  "observed_at_utc": "2026-11-10T02:10:17.114475+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N22",
+  "date": "20251013",
+  "players": 24,
+  "sha256": "e0bba413c5699d16b14e07b9b719d726d6bbfcbcf90e22e0f5c08d08375bac71",
+  "observed_at_utc": "2026-11-10T02:10:18.205739+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N23",
+  "date": "20251014",
+  "players": 24,
+  "sha256": "125b601731eeb53a3fea25d14cd788e29c3cd0ea51ef8bedec238cf564aa82e7",
+  "observed_at_utc": "2026-11-10T02:10:19.425009+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N24",
+  "date": "20251015",
+  "players": 24,
+  "sha256": "a6276eb4c70552ee51758277afe2fa958e3037fa0e049e7ef50cabf75d2c5fa0",
+  "observed_at_utc": "2026-11-10T02:10:20.359864+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N25",
+  "date": "20251016",
+  "players": 24,
+  "sha256": "8cd742e94f38c902b649dee4197b431c158ce26f1a6f71f19f5444b3353e3054",
+  "observed_at_utc": "2026-11-10T02:10:21.434220+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N26",
+  "date": "20251017",
+  "players": 24,
+  "sha256": "3ae0458d5fa44fbffd9fe92d65b2ef1ec0af05db35352335a889c5cb5305a266",
+  "observed_at_utc": "2026-11-10T02:10:22.520591+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N27",
+  "date": "20251018",
+  "players": 24,
+  "sha256": "d2a11082a2870a1df42825ef29feaeb1e11973b1d2c0ddac1c9650bd17ebbd36",
+  "observed_at_utc": "2026-11-10T02:10:23.747588+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N28",
+  "date": "20251018",
+  "players": 24,
+  "sha256": "b73540175b6f7c14d5e0b36bce13fa1ff1ac074c0dff8d00dfd68972326a9939",
+  "observed_at_utc": "2026-11-10T02:10:24.678195+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N29",
+  "date": "20251018",
+  "players": 24,
+  "sha256": "38a69b5d614f6eb06c4b02d65de2c715af81a3c4177b9b0f3b41e3edf645efa6",
+  "observed_at_utc": "2026-11-10T02:10:25.759586+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N30",
+  "date": "20251019",
+  "players": 24,
+  "sha256": "ac675ee1231d2bef0613165a7d7aceb5bb15263b8854c41e70588fe041ce46fe",
+  "observed_at_utc": "2026-11-10T02:10:26.981210+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N31",
+  "date": "20251019",
+  "players": 24,
+  "sha256": "2c97f5bdcb1686fff3db1c1b713cbb3117cbb3bbfa6a1a0bd440be9dcedf456c",
+  "observed_at_utc": "2026-11-10T02:10:28.085598+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N32",
+  "date": "20251019",
+  "players": 24,
+  "sha256": "933faab709f2251cddd4b86089d124aa77dfb1fc2cdf3f9d0df9aecd59c09e37",
+  "observed_at_utc": "2026-11-10T02:10:29.005801+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N33",
+  "date": "20251020",
+  "players": 24,
+  "sha256": "0bf4857aa00c3faa06101387b0f5b7e1bc0c7576eca02307486f584c9f2647b2",
+  "observed_at_utc": "2026-11-10T02:10:30.077101+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N34",
+  "date": "20251021",
+  "players": 24,
+  "sha256": "bb90215cb4551e5e97968bec62e06afc6a52ad10ee80cf46257c7aa1b2f34aa4",
+  "observed_at_utc": "2026-11-10T02:10:31.156650+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N35",
+  "date": "20251022",
+  "players": 24,
+  "sha256": "49beec614d0d7122707c719356d4cffdde6094ab75f7010bf2418facd8b473c6",
+  "observed_at_utc": "2026-11-10T02:10:32.238385+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N36",
+  "date": "20251023",
+  "players": 24,
+  "sha256": "94fdcb4cdadaafb34ae6916db62194db9a1f71731b57803b28a9f5cc786a5ec5",
+  "observed_at_utc": "2026-11-10T02:10:33.319793+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N37",
+  "date": "20251024",
+  "players": 24,
+  "sha256": "6f4e85691326e1f8e8a0acf743528d5377fde5a194f47b40659f90f05986d1b5",
+  "observed_at_utc": "2026-11-10T02:10:34.404384+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N38",
+  "date": "20251025",
+  "players": 24,
+  "sha256": "0bb206ce24b4b2a178cbb4f8150802f766cc944213c6cbce7ac8a0ae3981baeb",
+  "observed_at_utc": "2026-11-10T02:10:35.484039+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N39",
+  "date": "20251025",
+  "players": 24,
+  "sha256": "4dc470b05bd9d80774b3704fef9c80f7bb570e0a9c6046e6de187eb8fab2a847",
+  "observed_at_utc": "2026-11-10T02:10:36.575620+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N40",
+  "date": "20251025",
+  "players": 24,
+  "sha256": "a8b1b8d144b1499ded895701488c08a315a5c51704be1522a5f6c1589b39fbce",
+  "observed_at_utc": "2026-11-10T02:10:37.635756+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N41",
+  "date": "20251026",
+  "players": 24,
+  "sha256": "9d073e23c30be03ae92979bb89bb3e250d2198e3a4d540e3e4397577ace04a15",
+  "observed_at_utc": "2026-11-10T02:10:38.718274+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N42",
+  "date": "20251026",
+  "players": 24,
+  "sha256": "98eb80886bba36da20d5e21208b89b4033c5bd113d851f77d82af27ac3bdb297",
+  "observed_at_utc": "2026-11-10T02:10:39.807983+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N43",
+  "date": "20251026",
+  "players": 24,
+  "sha256": "babd837c138615b811f768491f848e694d8b3b77ede78cf8dfc60e525991b38d",
+  "observed_at_utc": "2026-11-10T02:10:40.877318+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N44",
+  "date": "20251027",
+  "players": 24,
+  "sha256": "6fbf888cf263fba2de84a369542b75f9d08d0837d674d44593648e9f2674dfd7",
+  "observed_at_utc": "2026-11-10T02:10:41.961850+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N45",
+  "date": "20251028",
+  "players": 24,
+  "sha256": "5c1d6dc814e4f24766e28b7bbb321b29c4ea39eef3b5c9c111c9ea4e89d0de84",
+  "observed_at_utc": "2026-11-10T02:10:43.039235+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N46",
+  "date": "20251029",
+  "players": 24,
+  "sha256": "2bb98d90352234b23d994cd04d3300eaff00081c845a83a0db07f6db53b42c5f",
+  "observed_at_utc": "2026-11-10T02:10:44.119278+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N47",
+  "date": "20251030",
+  "players": 24,
+  "sha256": "3c72c2882d7916f01feb3d1edbe5e91a9ed90fee44a8be630b7edf29b9279f7d",
+  "observed_at_utc": "2026-11-10T02:10:45.201155+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N48",
+  "date": "20251031",
+  "players": 24,
+  "sha256": "5f456f12aedabee296b79f19d58936d6ff5d5cbbb705a1611a93c9068df3085f",
+  "observed_at_utc": "2026-11-10T02:10:46.281019+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N49",
+  "date": "20251101",
+  "players": 24,
+  "sha256": "41533dd22a3a1dd2b01dee3f45ac84caafd4ad736b2daeb8904cc85cd5b8d54c",
+  "observed_at_utc": "2026-11-10T02:10:47.422322+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N50",
+  "date": "20251101",
+  "players": 24,
+  "sha256": "afac78ffc1550d5166ff7c2d27e5c3b491d4ec0390ea18007a693375c677ca34",
+  "observed_at_utc": "2026-11-10T02:10:48.438649+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N51",
+  "date": "20251101",
+  "players": 24,
+  "sha256": "ef757f038c2b0be7838a0b8bf31aec6ec5fc9e5f17f32fdc988dfcc5ec071878",
+  "observed_at_utc": "2026-11-10T02:10:49.519659+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N53",
+  "date": "20251102",
+  "players": 24,
+  "sha256": "86c8831bdd080c97c29c2d6571288af666c464167fd3a1614625de6b1813bac5",
+  "observed_at_utc": "2026-11-10T02:10:51.679104+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N54",
+  "date": "20251102",
+  "players": 24,
+  "sha256": "5888f66f2513cb748df0fa4841a0bff824fadfa73247b46062565c74d4eb73de",
+  "observed_at_utc": "2026-11-10T02:10:52.790548+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N55",
+  "date": "20251103",
+  "players": 24,
+  "sha256": "949e9f17e280feb5b7b3e709777eb37a5dbb338497bb16206dfe2ca1b6fb65d9",
+  "observed_at_utc": "2026-11-10T02:10:53.840600+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N56",
+  "date": "20251104",
+  "players": 24,
+  "sha256": "40d42ad0e761a8fbd05556840c1d59e3bb8fe8c9c3ebc75d723ebff0636a7d91",
+  "observed_at_utc": "2026-11-10T02:10:54.914545+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N57",
+  "date": "20251105",
+  "players": 24,
+  "sha256": "4a7327e74cffeeadc504946d8342d8b8be284f6386e20775d9f5640a1bdf2c7a",
+  "observed_at_utc": "2026-11-10T02:10:55.997155+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N58",
+  "date": "20251106",
+  "players": 24,
+  "sha256": "84629828b3280290b452d88e63b34413786a237f0a4102920d637967ebd00b74",
+  "observed_at_utc": "2026-11-10T02:10:57.225562+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N59",
+  "date": "20251107",
+  "players": 24,
+  "sha256": "d15d4c2b3802293b1ed40ee97f6374cf46eb5ad130511876eafd3bffbcacbcaa",
+  "observed_at_utc": "2026-11-10T02:10:58.162238+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N60",
+  "date": "20251108",
+  "players": 24,
+  "sha256": "0f08034bde2b61ab4771ee6cc44a5dc493ce72668f3372f49647bd6b36c79078",
+  "observed_at_utc": "2026-11-10T02:10:59.248119+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N61",
+  "date": "20251108",
+  "players": 24,
+  "sha256": "fdc7cd0e9cc3a7cbdb2ba71289a418f330f6c46f6c754ae2b5a2769c31d1de53",
+  "observed_at_utc": "2026-11-10T02:11:00.323393+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N62",
+  "date": "20251108",
+  "players": 24,
+  "sha256": "be2fa3a8961b58563c1535d17fdce58828e13a47608e736e57f7e551f58b11c6",
+  "observed_at_utc": "2026-11-10T02:11:01.399691+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N63",
+  "date": "20251109",
+  "players": 24,
+  "sha256": "cea20b9665190481d5bc8937f4f3e7c0c9f613e20a24fc3c2c7055705cc8346c",
+  "observed_at_utc": "2026-11-10T02:11:02.493311+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N64",
+  "date": "20251109",
+  "players": 24,
+  "sha256": "19791d4a443800873788f24a800df3c67c0e489d114ad0f09576f4a703dde984",
+  "observed_at_utc": "2026-11-10T02:11:03.563707+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N65",
+  "date": "20251109",
+  "players": 24,
+  "sha256": "184014379351994f9d4c521fc7217e68569cb04d55ed157bbcc76bfc595ca6fe",
+  "observed_at_utc": "2026-11-10T02:11:04.643686+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N66",
+  "date": "20251110",
+  "players": 24,
+  "sha256": "19d27931fc118a17c185d8566b894e5815dc177923e6c717cd5cd14c11dd2e47",
+  "observed_at_utc": "2026-11-10T02:11:05.723459+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N67",
+  "date": "20251111",
+  "players": 24,
+  "sha256": "c9aa8d5437454a81c331f31bda4f9b5772c03cb4314853c5953091188b6a9185",
+  "observed_at_utc": "2026-11-10T02:11:06.798507+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N68",
+  "date": "20251112",
+  "players": 24,
+  "sha256": "412bb6faf805bb1ac1524aab2f3672a8e38a8719647c633ebdcefc15fd62feb3",
+  "observed_at_utc": "2026-11-10T02:11:07.881284+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N69",
+  "date": "20251113",
+  "players": 24,
+  "sha256": "71d98ba33433e657f099969fc1fcac100338ae70b1406dfb5aa1c49e259c0bfd",
+  "observed_at_utc": "2026-11-10T02:11:08.965318+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N70",
+  "date": "20251113",
+  "players": 24,
+  "sha256": "0bb83f4bc991bf562d89254f71b0f4074f753d72ff96eefd6cbb41aa3e4189a9",
+  "observed_at_utc": "2026-11-10T02:11:10.040786+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N71",
+  "date": "20251115",
+  "players": 24,
+  "sha256": "6428cc28998199e764b8eec098727af94417a94da64df324c5f102844a25388f",
+  "observed_at_utc": "2026-11-10T02:11:11.122849+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N72",
+  "date": "20251115",
+  "players": 24,
+  "sha256": "b724587aa51dc14646844c9b9b9ebdbd2480a75235ab8319bc79d867dde64bdd",
+  "observed_at_utc": "2026-11-10T02:11:12.203108+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N73",
+  "date": "20251115",
+  "players": 24,
+  "sha256": "e806bb817beeca7f22d617ff339e06172c0e92ba90fc7dd77ac313a851c746c2",
+  "observed_at_utc": "2026-11-10T02:11:13.283724+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N74",
+  "date": "20251116",
+  "players": 24,
+  "sha256": "494c6a03823c685ef7238a75417d8529e7cafc3772616ebfeea43043713548ba",
+  "observed_at_utc": "2026-11-10T02:11:14.362519+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N75",
+  "date": "20251116",
+  "players": 24,
+  "sha256": "79da0ad84a18d2eaf4cb4aafcdd49c25b9f477495166c3c9226170fc57bd70b9",
+  "observed_at_utc": "2026-11-10T02:11:15.442903+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N76",
+  "date": "20251116",
+  "players": 24,
+  "sha256": "60569aead6bf3142e5c7e9d4b08669c7ba11657e44408ba1ccac9ae45282166c",
+  "observed_at_utc": "2026-11-10T02:11:16.520216+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N77",
+  "date": "20251117",
+  "players": 24,
+  "sha256": "bd96103dcc75ce343be01f8981dfac3ba50e7660839ee733ba501d3f4cc4d3ba",
+  "observed_at_utc": "2026-11-10T02:11:17.601908+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N78",
+  "date": "20251118",
+  "players": 24,
+  "sha256": "3e033354c3ae6f75b925ec17b8155fe1b870f3c3e00061f5f45c23c7c3dd73f4",
+  "observed_at_utc": "2026-11-10T02:11:18.680915+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N79",
+  "date": "20251118",
+  "players": 24,
+  "sha256": "fb9ac2291a37b9bc42fd30aae0f344269cf89e334057473a65d30501102e6772",
+  "observed_at_utc": "2026-11-10T02:11:19.762201+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N80",
+  "date": "20251119",
+  "players": 24,
+  "sha256": "57944c0740ae90e3b42df28c39b954357e4b4e5997976af444fded7f2d71a71a",
+  "observed_at_utc": "2026-11-10T02:11:20.846798+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N81",
+  "date": "20251119",
+  "players": 24,
+  "sha256": "97945a08159a59d1b3c368bee0fd1f5fe3022fd6110dfb312459c291c8e5dc6f",
+  "observed_at_utc": "2026-11-10T02:11:21.922409+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N82",
+  "date": "20251120",
+  "players": 24,
+  "sha256": "5e15cd131ac797cb63ddbd011da4c6247cdfddd8426ab300783ca64fd90e32cb",
+  "observed_at_utc": "2026-11-10T02:11:23.000343+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N83",
+  "date": "20251120",
+  "players": 24,
+  "sha256": "d752f885bb24b14147a58c30f232bd62a1bb4eb6aec347a0d8f73c6d8069e272",
+  "observed_at_utc": "2026-11-10T02:11:24.088316+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N84",
+  "date": "20251204",
+  "players": 24,
+  "sha256": "7262193c60764cdcea846a8ed2c52b724cea8c6b5461cf9830cba682c4f01168",
+  "observed_at_utc": "2026-11-10T02:11:25.165117+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N85",
+  "date": "20251204",
+  "players": 24,
+  "sha256": "73df7add8877437d1c28feaaaf1d9b9a99b60191237a5edd742c8f287623d6d2",
+  "observed_at_utc": "2026-11-10T02:11:26.248236+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N86",
+  "date": "20251205",
+  "players": 24,
+  "sha256": "187329372eb2f0b4a8a6fb09ac61423ed7ff4bd9be8333e0f74c5c80f8a0097b",
+  "observed_at_utc": "2026-11-10T02:11:27.321318+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N87",
+  "date": "20251205",
+  "players": 24,
+  "sha256": "c54135edc20e3fc08bc9e1da843e9486e48e22fad7dfb0e7a3de11589f17eb94",
+  "observed_at_utc": "2026-11-10T02:11:28.412396+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N88",
+  "date": "20251206",
+  "players": 24,
+  "sha256": "689fa655913d4b63e0f22cf2e9953657ba81319174941d34aac95189d6c18e77",
+  "observed_at_utc": "2026-11-10T02:11:29.482673+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N89",
+  "date": "20251206",
+  "players": 24,
+  "sha256": "2f51b950bda223d75aeb9142df07b520b2e1f4ff3683ec55b973d322af289398",
+  "observed_at_utc": "2026-11-10T02:11:30.562091+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N90",
+  "date": "20251206",
+  "players": 24,
+  "sha256": "82c9a7c70942d2a9272d9b4fe79cb25acaa4ede6219891b9a7c01d0e372934e0",
+  "observed_at_utc": "2026-11-10T02:11:31.642441+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N91",
+  "date": "20251207",
+  "players": 24,
+  "sha256": "e6692da7a7bd9f01ac7fd2ad9ea7459ebbfd94e45cbf1ff68f1e59ea7a4d50d1",
+  "observed_at_utc": "2026-11-10T02:11:32.726625+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N92",
+  "date": "20251207",
+  "players": 24,
+  "sha256": "09b3e111dd86fc095964239cb4f42938954540fbe4794bcc47ee7179866e9a6d",
+  "observed_at_utc": "2026-11-10T02:11:33.808033+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N93",
+  "date": "20251207",
+  "players": 24,
+  "sha256": "a6cadfc8519eca4e7b4ef022f36187e06115c2264fcd90b496562e2fe0f385f0",
+  "observed_at_utc": "2026-11-10T02:11:34.882955+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N94",
+  "date": "20251208",
+  "players": 24,
+  "sha256": "2e61912aae79204eb300547648b33135eee6eb8a9a113c780ae8c0654b6b2350",
+  "observed_at_utc": "2026-11-10T02:11:35.964088+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N95",
+  "date": "20251209",
+  "players": 24,
+  "sha256": "a3ee1c8273d3b2107e73d7779b15c9260392cd37080af240d08852f6a4b5e491",
+  "observed_at_utc": "2026-11-10T02:11:37.043591+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N96",
+  "date": "20251210",
+  "players": 24,
+  "sha256": "3929960cb995eef40720eb2016bde9f7eaa9197ceeca06e22f62f19e39976961",
+  "observed_at_utc": "2026-11-10T02:11:38.123429+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N97",
+  "date": "20251211",
+  "players": 24,
+  "sha256": "a7c4df44b1db5a9fde96c310ebfb235b6db26f9302574e934c39483c6c8fd84e",
+  "observed_at_utc": "2026-11-10T02:11:39.217838+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N98",
+  "date": "20251212",
+  "players": 24,
+  "sha256": "a7664a1216ba7788be1f2b0ddd3e7f8c5bcb3353d2faa780dcdc4c1d81db2dc0",
+  "observed_at_utc": "2026-11-10T02:11:40.287578+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N100",
+  "date": "20251213",
+  "players": 24,
+  "sha256": "01a93f888b50f9ef864aa38c8da8588a6374da2ab8344eaf52abe22d2465ad72",
+  "observed_at_utc": "2026-11-10T02:11:41.368418+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N101",
+  "date": "20251213",
+  "players": 24,
+  "sha256": "a6265c19bf4217614a3f208f148b35d6cd492edb7e7f1ae62a069f58ba40c8fb",
+  "observed_at_utc": "2026-11-10T02:11:42.446953+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N99",
+  "date": "20251213",
+  "players": 24,
+  "sha256": "f4fa379524722192d72b1254ca9d53621b1127f780665faa26265da88f5e2c11",
+  "observed_at_utc": "2026-11-10T02:11:43.527847+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N102",
+  "date": "20251214",
+  "players": 24,
+  "sha256": "683dd4a9f8639a7956f248a2d0bff0970349701e4f6a162b024f83fb5ec27402",
+  "observed_at_utc": "2026-11-10T02:11:44.605308+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N103",
+  "date": "20251214",
+  "players": 24,
+  "sha256": "1026a13c5d5c909ab9a248fa898d93eaf631503be3d179a41d38ca6771d703d0",
+  "observed_at_utc": "2026-11-10T02:11:45.686785+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N104",
+  "date": "20251214",
+  "players": 24,
+  "sha256": "d48c5ed433c62a20fdd360b7be1130c6cb723f22469363c05ab4c2933f6448ac",
+  "observed_at_utc": "2026-11-10T02:11:46.764061+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N105",
+  "date": "20251215",
+  "players": 24,
+  "sha256": "98963ab2dff21f62a795c6b313ed815d01d934763d8ed06ad0451d4cdd1ab541",
+  "observed_at_utc": "2026-11-10T02:11:48.007225+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N106",
+  "date": "20251216",
+  "players": 24,
+  "sha256": "5115d803b2f7011cc32ef3975cb7ff332845b7c62eff14bb84009d6a25b0384c",
+  "observed_at_utc": "2026-11-10T02:11:49.072337+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N107",
+  "date": "20251217",
+  "players": 24,
+  "sha256": "af2121302a25780386049bbf04b5c74fc23786059fff15c8f412b9b40d1ad979",
+  "observed_at_utc": "2026-11-10T02:11:50.159136+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N108",
+  "date": "20251218",
+  "players": 24,
+  "sha256": "6acad0500e0b396e1c8acd700efc450382cd953ecafa8d6004728ccd7a505c95",
+  "observed_at_utc": "2026-11-10T02:11:51.245336+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N109",
+  "date": "20251219",
+  "players": 24,
+  "sha256": "ccd2c6d40047362e107256b7c07d648dc1e34e5d2d85e031cf4f9d33f157a261",
+  "observed_at_utc": "2026-11-10T02:11:52.323369+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N110",
+  "date": "20251220",
+  "players": 24,
+  "sha256": "bce5a54a32a769c88e48700a1d20fe05d994f8f2e14f97ab965742129ddba3dc",
+  "observed_at_utc": "2026-11-10T02:11:53.392814+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N111",
+  "date": "20251220",
+  "players": 24,
+  "sha256": "81272251e41f341ba014f2b2e344d9e675e8507a88cda57af0e7dc05b264b921",
+  "observed_at_utc": "2026-11-10T02:11:54.475967+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N112",
+  "date": "20251220",
+  "players": 24,
+  "sha256": "023c624b3683b3c39122c1d112010862b0116b20fc96bd2fd984937762c514e8",
+  "observed_at_utc": "2026-11-10T02:11:55.403847+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N113",
+  "date": "20251221",
+  "players": 24,
+  "sha256": "6aaef5d4e816cb4b5606e795657d7077c3133d74331b4c8e65613d3e504a2687",
+  "observed_at_utc": "2026-11-10T02:11:56.484665+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N114",
+  "date": "20251221",
+  "players": 24,
+  "sha256": "e1577885affb004cb35c9a88006889f9438c540e00ae6453ef1f3bc513318696",
+  "observed_at_utc": "2026-11-10T02:11:57.713740+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N115",
+  "date": "20251221",
+  "players": 24,
+  "sha256": "e5c4d961a76c08afcb22c09b84c7743877f3e5176f82c4686aca02ef7a58af65",
+  "observed_at_utc": "2026-11-10T02:11:58.793103+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N116",
+  "date": "20251222",
+  "players": 24,
+  "sha256": "2daacbbf40118617026fc0cfa849294cabdbd0156d7b3b630a92edcfdd4785a7",
+  "observed_at_utc": "2026-11-10T02:11:59.733270+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N117",
+  "date": "20251223",
+  "players": 24,
+  "sha256": "b943e2ef70a3170b4244f0f887f506377aa8b87ebfc06c8961d9c306d351e8e2",
+  "observed_at_utc": "2026-11-10T02:12:00.952627+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N118",
+  "date": "20251224",
+  "players": 24,
+  "sha256": "bb27eeb596b4585c5ce16710dfb6a4ebba7261942231a94440d770bb70e14e44",
+  "observed_at_utc": "2026-11-10T02:12:01.916106+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N119",
+  "date": "20251225",
+  "players": 24,
+  "sha256": "429bf0ba3f7cadb901b3e9ef3981e3157f4e2c20ee11fe4e659864c13c0e8e46",
+  "observed_at_utc": "2026-11-10T02:12:03.130767+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N120",
+  "date": "20251225",
+  "players": 24,
+  "sha256": "ae8774b02af91ce7a33ef9d2712efd619f2acf371dccab26f66fc9ed9990d58b",
+  "observed_at_utc": "2026-11-10T02:12:04.200444+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N121",
+  "date": "20251225",
+  "players": 24,
+  "sha256": "34bc8e3a77d3ecc246d3fc8ca4f047bc54f3ca30bcb607991a0ac37fc47939ac",
+  "observed_at_utc": "2026-11-10T02:12:05.133061+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N122",
+  "date": "20251226",
+  "players": 24,
+  "sha256": "14450df9fcf7c9ba92d815febea732e66b890ecca017ae8215ac4007de770bb7",
+  "observed_at_utc": "2026-11-10T02:12:06.361088+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N123",
+  "date": "20251227",
+  "players": 24,
+  "sha256": "ca41b3a95f604fc2a2f9eb71f215b38204cc6982e3a3047b2f32269b297d6106",
+  "observed_at_utc": "2026-11-10T02:12:07.289278+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N124",
+  "date": "20251227",
+  "players": 24,
+  "sha256": "ca8aeddd18b803cc0ce47e89cf61274ab4ad63fb8c1baa690ae1cc49be118eeb",
+  "observed_at_utc": "2026-11-10T02:12:08.514778+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N125",
+  "date": "20251227",
+  "players": 24,
+  "sha256": "3cff8082696f98f6ec6215da154625d3bf2bcb7f3e542bf4c3e557451898c407",
+  "observed_at_utc": "2026-11-10T02:12:09.613954+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N126",
+  "date": "20251228",
+  "players": 24,
+  "sha256": "65881c83ebb628df4278032a797730eaa6bff3d7044138849f7ac36557b38b28",
+  "observed_at_utc": "2026-11-10T02:12:10.527759+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N127",
+  "date": "20251228",
+  "players": 24,
+  "sha256": "52ea9f6ad81b5861c718a4b4f8952010474c2a22aa21676659d88c75792f9d6f",
+  "observed_at_utc": "2026-11-10T02:12:11.610309+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N128",
+  "date": "20251228",
+  "players": 24,
+  "sha256": "430edd7cc5b8bf8d2e382cf575bfbb72a2be33c9e05b118c8f0c05cc23613ce6",
+  "observed_at_utc": "2026-11-10T02:12:12.687606+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N129",
+  "date": "20251229",
+  "players": 24,
+  "sha256": "240653f979cb56ffdbd8d4852b07ac5cce4f8595d692d5d8c761c637a749aa9c",
+  "observed_at_utc": "2026-11-10T02:12:13.766681+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N130",
+  "date": "20251230",
+  "players": 24,
+  "sha256": "dae077fcbfe8d78f27e77fa82e5aa33fba987067b4f3e4cfd6419257e3e4d8fe",
+  "observed_at_utc": "2026-11-10T02:12:14.846142+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N131",
+  "date": "20251231",
+  "players": 24,
+  "sha256": "b9131ad76aff1594df5d24a29048ef2422a705527e5eb9f96de80a4c66c5522d",
+  "observed_at_utc": "2026-11-10T02:12:15.929774+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N132",
+  "date": "20251231",
+  "players": 24,
+  "sha256": "5d1e0cb8d06ab5629601c33fefb800f94ba1fea61ac8f67f92c073f53402d938",
+  "observed_at_utc": "2026-11-10T02:12:17.007094+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N133",
+  "date": "20260101",
+  "players": 24,
+  "sha256": "77e109f9f42be9c7ba7ef375a98e0732eef8fbd4200a6f94855e782e020c8ce9",
+  "observed_at_utc": "2026-11-10T02:12:18.092090+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N134",
+  "date": "20260101",
+  "players": 24,
+  "sha256": "1f591469bd6499f66d9f6e87a0fb87033864d33b3c8ff50026bc60d6a834e138",
+  "observed_at_utc": "2026-11-10T02:12:19.168309+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N135",
+  "date": "20260102",
+  "players": 24,
+  "sha256": "ccd54d9592e2920650f3b4328e8cff03b0ae114716650ec784207f9c462a678f",
+  "observed_at_utc": "2026-11-10T02:12:20.246689+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N136",
+  "date": "20260103",
+  "players": 24,
+  "sha256": "aa99cd6d8b38942b91ea3dde1ddb75757f2bdf68e4af29ff05b3461f020d92f8",
+  "observed_at_utc": "2026-11-10T02:12:21.331289+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N137",
+  "date": "20260103",
+  "players": 24,
+  "sha256": "c3e0d029b4cc9cd505db50fd1b8a2069886a7e195304d122c5c6e49c0cfd8ce3",
+  "observed_at_utc": "2026-11-10T02:12:22.571370+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N138",
+  "date": "20260103",
+  "players": 24,
+  "sha256": "787d551a29f4448a77a9a65486b3efc237902eb97f6d51a650422671dfe73da9",
+  "observed_at_utc": "2026-11-10T02:12:23.490306+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N139",
+  "date": "20260104",
+  "players": 24,
+  "sha256": "4777d9d5025dd6084293b6e583dce23ac2fb45ec8de1d1d65ffa3eca58bb33b1",
+  "observed_at_utc": "2026-11-10T02:12:24.567025+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N140",
+  "date": "20260104",
+  "players": 24,
+  "sha256": "2fbc27cffd5207b9709b79118a4382c19a59e15d6527a263371e8c5b00de71e0",
+  "observed_at_utc": "2026-11-10T02:12:25.647739+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N141",
+  "date": "20260104",
+  "players": 24,
+  "sha256": "8a5d4b596f47a6bf231a4c31d409447a93dc8c93ff84a6be0e2b80769db2e149",
+  "observed_at_utc": "2026-11-10T02:12:26.878663+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N142",
+  "date": "20260105",
+  "players": 24,
+  "sha256": "4c37454e4cb30658f308124f51b82cb32ae041a903071e7f97e4d1577c65585b",
+  "observed_at_utc": "2026-11-10T02:12:27.812515+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N143",
+  "date": "20260106",
+  "players": 24,
+  "sha256": "5d640cb464f1eb0f61ec7e387f5bf5fa5130f3f45dd806016947f74264646e34",
+  "observed_at_utc": "2026-11-10T02:12:29.042102+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N144",
+  "date": "20260107",
+  "players": 24,
+  "sha256": "278f5c85c4e44a77e56168b04178d50e94bc74786700d46f3303c2af306ce15a",
+  "observed_at_utc": "2026-11-10T02:12:29.969519+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N145",
+  "date": "20260108",
+  "players": 24,
+  "sha256": "4f8c2ac67cf58014432c8ecfcdd73e57d07a758d0026a84c8caef4dc08b29d86",
+  "observed_at_utc": "2026-11-10T02:12:31.051421+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N146",
+  "date": "20260109",
+  "players": 24,
+  "sha256": "22a85c1538282db743656fd64c83e52b8024be25a14d9568b4d982c890d07eba",
+  "observed_at_utc": "2026-11-10T02:12:32.132856+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N147",
+  "date": "20260110",
+  "players": 24,
+  "sha256": "9389b906844d82ca307e62a60b81ec2ae21fc2a0e3f47d2bd423b7adfdd6ab6b",
+  "observed_at_utc": "2026-11-10T02:12:33.209006+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N148",
+  "date": "20260110",
+  "players": 24,
+  "sha256": "186e670b61c63ad343971499093d3c8e0915e151d62d51a886fd61920bbc043e",
+  "observed_at_utc": "2026-11-10T02:12:34.290681+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N149",
+  "date": "20260110",
+  "players": 24,
+  "sha256": "a1a143356405a68e8fadf0f3f83f347fa653cf69506ecb3967d851477b83ea54",
+  "observed_at_utc": "2026-11-10T02:12:35.379594+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N150",
+  "date": "20260111",
+  "players": 24,
+  "sha256": "bc5adab6bd14e3332ba127cff2bb4059986e76ccb62847f298281fe505dd9ca8",
+  "observed_at_utc": "2026-11-10T02:12:36.454942+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N151",
+  "date": "20260111",
+  "players": 24,
+  "sha256": "f9f696ccdc6487fe5ae19db134a0d38c42cdcb0ce3ebe20e37dd01b550e2f473",
+  "observed_at_utc": "2026-11-10T02:12:37.528852+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N152",
+  "date": "20260111",
+  "players": 24,
+  "sha256": "65cc5567fd9d1cce89a0873e705a187c868f7d83d9aa144cc56c827155ec5600",
+  "observed_at_utc": "2026-11-10T02:12:38.611573+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N153",
+  "date": "20260112",
+  "players": 24,
+  "sha256": "27f0c3840d73e6aeba069fc7e3946deb4416ade39ddffa056b549cbe0baab6a2",
+  "observed_at_utc": "2026-11-10T02:12:39.691617+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N154",
+  "date": "20260112",
+  "players": 24,
+  "sha256": "e1b21196f5de4223f33de8898514f9de6d79bb9d8ad27b5618ec8da444da7e37",
+  "observed_at_utc": "2026-11-10T02:12:40.772033+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N155",
+  "date": "20260113",
+  "players": 24,
+  "sha256": "13a0c00b62890b508594eb82ad1c2f8b9e2d5fdb1b8b0cf0081fe135e8fbeac2",
+  "observed_at_utc": "2026-11-10T02:12:41.848655+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N156",
+  "date": "20260113",
+  "players": 24,
+  "sha256": "f456fc7d18d3b0987ab0e7556188dba1974b4ef919cc0f84566397a3c5bbb324",
+  "observed_at_utc": "2026-11-10T02:12:42.938160+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N157",
+  "date": "20260114",
+  "players": 24,
+  "sha256": "e3eea0fa90defa42fb90c328d405726725f2a143a4a4f42f39fd3544fae63571",
+  "observed_at_utc": "2026-11-10T02:12:44.029232+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N158",
+  "date": "20260114",
+  "players": 24,
+  "sha256": "5d9a7d15ecadd57c2767dcce30d3c26977310c25b045773f35851ca93b945800",
+  "observed_at_utc": "2026-11-10T02:12:45.093926+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N159",
+  "date": "20260115",
+  "players": 24,
+  "sha256": "9b29c0ce8f0b4bec9b3a370dfd875fdcef8a8450b5886dd270bb0f3266b03d90",
+  "observed_at_utc": "2026-11-10T02:12:46.171443+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N160",
+  "date": "20260115",
+  "players": 24,
+  "sha256": "049b20db2721e85649861929431b80431992ad5636205d32b2ec0b01bd0d84a5",
+  "observed_at_utc": "2026-11-10T02:12:47.250941+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N161",
+  "date": "20260121",
+  "players": 24,
+  "sha256": "d4d53fd65c8a640c8e87222d373f513fd2fed56ffbafe40308b6e9099dd450a3",
+  "observed_at_utc": "2026-11-10T02:12:48.332595+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N162",
+  "date": "20260121",
+  "players": 24,
+  "sha256": "103993d7cfe151a36ee332c25bf6a6fbb84eddc57cb6724d2b837567dbdb3b77",
+  "observed_at_utc": "2026-11-10T02:12:49.411615+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N163",
+  "date": "20260122",
+  "players": 24,
+  "sha256": "f5bb17fc56ac5ef8b4be1d72efd3b54892089a7715100098f0ea7b1c8eb3c67d",
+  "observed_at_utc": "2026-11-10T02:12:50.492893+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N164",
+  "date": "20260122",
+  "players": 24,
+  "sha256": "872b532bef92fd883dd2b4d6ead0aa2ed2962eadebca50c3afce6c82c45e34f3",
+  "observed_at_utc": "2026-11-10T02:12:51.571094+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N165",
+  "date": "20260123",
+  "players": 24,
+  "sha256": "30ff358065b92c06f41aaa82b9576c8698f5b4839a06353a8877aeacb083774d",
+  "observed_at_utc": "2026-11-10T02:12:52.655244+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N166",
+  "date": "20260123",
+  "players": 24,
+  "sha256": "528624a1a516350e74c838bf9419160bea31e25b3570a2514c0833940bab7aeb",
+  "observed_at_utc": "2026-11-10T02:12:53.758402+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N167",
+  "date": "20260124",
+  "players": 24,
+  "sha256": "1250a2edc0fb327f94aed4459b29f174cf63fd4cf5caf6993346955d647c37b8",
+  "observed_at_utc": "2026-11-10T02:12:54.813115+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N168",
+  "date": "20260124",
+  "players": 24,
+  "sha256": "02af6647d64525c47e1a4399620ce8ad4d1ac66db3c3a14832667efac3174743",
+  "observed_at_utc": "2026-11-10T02:12:55.895225+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N169",
+  "date": "20260124",
+  "players": 24,
+  "sha256": "4d670988cc98db22c3700d5fdbeb767e2d00bf27b6e1a6215da1a5b3dab97883",
+  "observed_at_utc": "2026-11-10T02:12:56.976916+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N170",
+  "date": "20260125",
+  "players": 24,
+  "sha256": "432705e35ed845f153c5888cc767f2c19c725de5cb23465f8147d40a32358aa5",
+  "observed_at_utc": "2026-11-10T02:12:58.052755+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N171",
+  "date": "20260125",
+  "players": 24,
+  "sha256": "74df838a7a7573ecdbc09652b6184bc64dca3aff0ef79cede62add2decdf6a08",
+  "observed_at_utc": "2026-11-10T02:12:59.134836+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N172",
+  "date": "20260125",
+  "players": 24,
+  "sha256": "555b34428816e67b05e1c3b60a30d21c43f60293fe5017b0ba681f7ef196f78f",
+  "observed_at_utc": "2026-11-10T02:13:00.217955+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N173",
+  "date": "20260126",
+  "players": 24,
+  "sha256": "0110474fdfb9ba4eb6723a60724da738ebc5275b70c9676f7951e2005bca117a",
+  "observed_at_utc": "2026-11-10T02:13:01.294696+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N174",
+  "date": "20260127",
+  "players": 24,
+  "sha256": "4830b43a16e94dbff6b585af11264baa0732f15ce15e588b36336f92b4e90b0d",
+  "observed_at_utc": "2026-11-10T02:13:02.378687+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N175",
+  "date": "20260128",
+  "players": 24,
+  "sha256": "7ef0a51a18b643f40dc0f9807f9e103207be38886b9e55e4a33e928ec920048f",
+  "observed_at_utc": "2026-11-10T02:13:03.451917+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N176",
+  "date": "20260129",
+  "players": 24,
+  "sha256": "e8d5f958e4071bb972f3395a78986032fb819e48544c62b492dc061ac2136d41",
+  "observed_at_utc": "2026-11-10T02:13:04.531568+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N177",
+  "date": "20260130",
+  "players": 24,
+  "sha256": "6e87cf1d404fd50d16678a370c93994835924395784a30fe4d051351e52cdf43",
+  "observed_at_utc": "2026-11-10T02:13:05.625456+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N178",
+  "date": "20260131",
+  "players": 24,
+  "sha256": "eeefa0bf30e76b7be7ba8b284d284eaef32cc890829ee35c19d6a58470c4fd2e",
+  "observed_at_utc": "2026-11-10T02:13:06.697250+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N179",
+  "date": "20260131",
+  "players": 24,
+  "sha256": "0defdddfa58fd5db29a685de01a9e76b27905c93d3bc298c44a79ace1c09d62c",
+  "observed_at_utc": "2026-11-10T02:13:07.777358+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N180",
+  "date": "20260131",
+  "players": 24,
+  "sha256": "34f73fc8bb964b9b48ce8a1d6fb8b5c835c3d56f157b83a616364187c0726d91",
+  "observed_at_utc": "2026-11-10T02:13:08.852191+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N181",
+  "date": "20260201",
+  "players": 24,
+  "sha256": "efd308a99b07fd4f5d8b1332818efa959d315d463dc6af438c96b98c29c16920",
+  "observed_at_utc": "2026-11-10T02:13:09.933318+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N182",
+  "date": "20260201",
+  "players": 24,
+  "sha256": "077e786ddb855f5f045abb7bd91d99bffb42eb6a8b74b5c3001216225cc9ea4c",
+  "observed_at_utc": "2026-11-10T02:13:11.019432+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N183",
+  "date": "20260201",
+  "players": 24,
+  "sha256": "a243d5b10fb38a4a146a30b15c38524ae0ca7bb8e51d34d137b20449d36fd7a4",
+  "observed_at_utc": "2026-11-10T02:13:12.100466+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N184",
+  "date": "20260202",
+  "players": 24,
+  "sha256": "a2e4f3b0846568d13ee503daceaefeb59f3d8f289057589c246947a3d33bb714",
+  "observed_at_utc": "2026-11-10T02:13:13.173234+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N185",
+  "date": "20260203",
+  "players": 24,
+  "sha256": "acd081621a54f9d3d2a01d4bb90e921b217f9ab49ccaf72ad50c3e6fa5334ae1",
+  "observed_at_utc": "2026-11-10T02:13:14.252466+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N186",
+  "date": "20260204",
+  "players": 24,
+  "sha256": "c3c53cd86c2306db4980638193c451a70fa228241c674d382b1afcb92d0b0e17",
+  "observed_at_utc": "2026-11-10T02:13:15.345855+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N187",
+  "date": "20260205",
+  "players": 24,
+  "sha256": "d162dbef5a7f933b60b5504df8c29e864bd8449f5dca1f7c512619dee05542d4",
+  "observed_at_utc": "2026-11-10T02:13:16.412705+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N188",
+  "date": "20260206",
+  "players": 24,
+  "sha256": "b74a9a431b3b37fe89c86bc5907b15da534d87dceaa0dfe97b39144f9289397f",
+  "observed_at_utc": "2026-11-10T02:13:17.497205+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N189",
+  "date": "20260207",
+  "players": 24,
+  "sha256": "906e11b88a074e99a43405e9deb466b92c308a9fa6f5217f74e1b3ad502d12b8",
+  "observed_at_utc": "2026-11-10T02:13:18.574337+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N190",
+  "date": "20260207",
+  "players": 24,
+  "sha256": "7dc982f1f6ba9abdef4a11bdc20d9a1ae70f3dc4ea50668db73df63900ccfed3",
+  "observed_at_utc": "2026-11-10T02:13:19.666150+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N191",
+  "date": "20260207",
+  "players": 24,
+  "sha256": "195a69d9bf6c13ab4d17b7a5b7e866145dc491f432f7aec03632cd6f361c8b20",
+  "observed_at_utc": "2026-11-10T02:13:20.737087+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N192",
+  "date": "20260208",
+  "players": 24,
+  "sha256": "30ab6690637cae99d748d10a9ba88720563dc6a1aae8c8f9e0f19615cde9c188",
+  "observed_at_utc": "2026-11-10T02:13:21.814192+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N193",
+  "date": "20260208",
+  "players": 24,
+  "sha256": "b0af196193b721a99a38eae50b3e2950588029b07b25c4c8df960ada02121a64",
+  "observed_at_utc": "2026-11-10T02:13:22.902548+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N194",
+  "date": "20260208",
+  "players": 24,
+  "sha256": "635fec51aacaa79f1eb6d62c51631ac81d89bfe80c040eaa72b9f3e07009831f",
+  "observed_at_utc": "2026-11-10T02:13:23.977324+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N195",
+  "date": "20260209",
+  "players": 24,
+  "sha256": "758c24caab2318201a0610f0e5d0e97f28e96ada161e0c7670cb45c617333339",
+  "observed_at_utc": "2026-11-10T02:13:25.050749+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N196",
+  "date": "20260210",
+  "players": 24,
+  "sha256": "4eaec4f133406997bf731cc1c68eb1ebc457c1c5695c23203b14813cdf6b3104",
+  "observed_at_utc": "2026-11-10T02:13:26.140001+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N197",
+  "date": "20260211",
+  "players": 24,
+  "sha256": "c9451344a8dfb4c2f27ce9cd154d864382d4d1dbe10ebda372960960c005bf68",
+  "observed_at_utc": "2026-11-10T02:13:27.215745+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N198",
+  "date": "20260212",
+  "players": 24,
+  "sha256": "bcfad29a47c207c9e4146045de38f335762881c8c39145fd1e469f133bd66eca",
+  "observed_at_utc": "2026-11-10T02:13:28.293322+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N199",
+  "date": "20260213",
+  "players": 24,
+  "sha256": "37f60fb4d73f2f74455f07929d5c9fd86990498507ce9fe30d31dcd0b4246a6f",
+  "observed_at_utc": "2026-11-10T02:13:29.377191+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N200",
+  "date": "20260214",
+  "players": 24,
+  "sha256": "b571781cda35cd41146de7dd74c07dff05ebe5196df097c6afc0800296334066",
+  "observed_at_utc": "2026-11-10T02:13:30.457115+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N201",
+  "date": "20260214",
+  "players": 24,
+  "sha256": "b88de595f7484033ce888745eec0f39c1ed299fa01e8093626a5d0ee21ab96ac",
+  "observed_at_utc": "2026-11-10T02:13:31.547025+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N202",
+  "date": "20260214",
+  "players": 24,
+  "sha256": "656cfd63741981fa60c0af71de04639be60b6f62c01f0770976f519786b4c653",
+  "observed_at_utc": "2026-11-10T02:13:32.616847+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N203",
+  "date": "20260215",
+  "players": 24,
+  "sha256": "e836d740ed2a4c28b4880b69b3bf5588f43bdd5acfeb7bb8e0f3524a8c79522e",
+  "observed_at_utc": "2026-11-10T02:13:33.698418+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N204",
+  "date": "20260215",
+  "players": 24,
+  "sha256": "13b52a0bcb60a775f09fb620d0904a474f0fbe37f8de1bd5fa1c397624162b5a",
+  "observed_at_utc": "2026-11-10T02:13:34.776576+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N205",
+  "date": "20260215",
+  "players": 24,
+  "sha256": "ad9ccadb9e9ec784195278b4bf3c986df010af74ad44a118c5d0a0b4575ea854",
+  "observed_at_utc": "2026-11-10T02:13:35.859472+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N206",
+  "date": "20260216",
+  "players": 24,
+  "sha256": "8c6220371dafaad4b58eb84d1e38d0df41d2662c0b720a61d0a93f99323fa252",
+  "observed_at_utc": "2026-11-10T02:13:36.936203+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N207",
+  "date": "20260216",
+  "players": 24,
+  "sha256": "dc71a6a88dba53f9d973b581378628eda8230e8409431b7a39d53cbf762b80f4",
+  "observed_at_utc": "2026-11-10T02:13:38.018730+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N208",
+  "date": "20260217",
+  "players": 24,
+  "sha256": "10ecd75288d3cbbf029ba59fb6f73305e36f2b4c440bb9cab0e83a93613a247d",
+  "observed_at_utc": "2026-11-10T02:13:39.108380+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N209",
+  "date": "20260217",
+  "players": 24,
+  "sha256": "fd955e292543ba3622b4c20e1278c86ccc4471ca0197d1a90146c8326841b244",
+  "observed_at_utc": "2026-11-10T02:13:40.194237+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N210",
+  "date": "20260218",
+  "players": 24,
+  "sha256": "070e9009df8e2d28e51c13cf0a173fd97a6b730c194e3404c7c5186d8b1d1a06",
+  "observed_at_utc": "2026-11-10T02:13:41.257055+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N211",
+  "date": "20260218",
+  "players": 24,
+  "sha256": "a2dbce9d9e7beeb197f184abd7b0e206a233cec897a8bb0bde3ac927d0608494",
+  "observed_at_utc": "2026-11-10T02:13:42.339859+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N212",
+  "date": "20260219",
+  "players": 24,
+  "sha256": "94698cbc9a58ffb698274e559df401b751eac085a8b736a0223d9524be02f816",
+  "observed_at_utc": "2026-11-10T02:13:43.419090+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N213",
+  "date": "20260219",
+  "players": 24,
+  "sha256": "3c546a1216018d49d61c6fcd955a3cc457c54a272709ff0b2f037fd37eebb264",
+  "observed_at_utc": "2026-11-10T02:13:44.500131+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N214",
+  "date": "20260305",
+  "players": 24,
+  "sha256": "3e62b0b99261fba11bd5825cde7c5ad2482e28acd6ba09d4908aafb43fcfa684",
+  "observed_at_utc": "2026-11-10T02:13:45.585236+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N215",
+  "date": "20260305",
+  "players": 24,
+  "sha256": "2e458dac80d6432f0ee01b9c34db69f002a94af0f81c9fa05379cb2191670fa3",
+  "observed_at_utc": "2026-11-10T02:13:46.655886+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N216",
+  "date": "20260306",
+  "players": 24,
+  "sha256": "afd34266f41ce12e129a50c6b89c7908f312a4b5c01044c15560602c8f4b5185",
+  "observed_at_utc": "2026-11-10T02:13:47.739921+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N217",
+  "date": "20260306",
+  "players": 24,
+  "sha256": "8d9acc1e0128eba8e3d3059068cc072a16614e649fa42fa864825bd05e58e348",
+  "observed_at_utc": "2026-11-10T02:13:48.822355+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N218",
+  "date": "20260307",
+  "players": 24,
+  "sha256": "7e1edf0445bfc281313ae11b4b6670b9c71db67793f7d9e028f8765a099051f2",
+  "observed_at_utc": "2026-11-10T02:13:49.898702+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N219",
+  "date": "20260307",
+  "players": 24,
+  "sha256": "f966b5a77c734aa535792022e4a1bf377ab39823e89e13b50fd14dab90bcb71c",
+  "observed_at_utc": "2026-11-10T02:13:50.980372+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N220",
+  "date": "20260307",
+  "players": 24,
+  "sha256": "1fe5f7f0833423d12692d8c7ddbef2e428cdadb7404e612cf6ca3c75fc2aed17",
+  "observed_at_utc": "2026-11-10T02:13:52.056317+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N221",
+  "date": "20260308",
+  "players": 24,
+  "sha256": "9f092d787ab9c9c8a4d26b840238ad82b8a67655fd1e65bfa27e7626b37d530a",
+  "observed_at_utc": "2026-11-10T02:13:53.143073+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N222",
+  "date": "20260308",
+  "players": 24,
+  "sha256": "d75d0fef61e59c0ce3e8ab7afbde7fd1038789ba05048ef0111d9f04a944845b",
+  "observed_at_utc": "2026-11-10T02:13:54.243252+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N223",
+  "date": "20260308",
+  "players": 24,
+  "sha256": "1cd178d8a7901fe8a24cf1291825fb103d1b7fecb41cf82f4d64735d3ce6cf64",
+  "observed_at_utc": "2026-11-10T02:13:55.303724+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N224",
+  "date": "20260309",
+  "players": 24,
+  "sha256": "08de6119137a0ac5f4006ca41a5b78cc9dd7a071437135bcc996c5cceec98492",
+  "observed_at_utc": "2026-11-10T02:13:56.389417+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N225",
+  "date": "20260310",
+  "players": 24,
+  "sha256": "9399339deede747bb39fcf542e326c42f128a1854dda33b7bef7be3b2dcd462a",
+  "observed_at_utc": "2026-11-10T02:13:57.458366+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N226",
+  "date": "20260311",
+  "players": 24,
+  "sha256": "23451648cb4e7e5b830e2d478d74d103edcf6cd7351b7513f5d250af99edc60a",
+  "observed_at_utc": "2026-11-10T02:13:58.541599+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N227",
+  "date": "20260312",
+  "players": 24,
+  "sha256": "32233d5b6d94cf240d6656c20844d0701aefe5f410c232ef4def6c39db0951b7",
+  "observed_at_utc": "2026-11-10T02:13:59.621919+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N228",
+  "date": "20260313",
+  "players": 24,
+  "sha256": "0f5d02aa1d8114b67ef11c4abc25acc86c69783ef610d3be09fdc3692a7ff4f5",
+  "observed_at_utc": "2026-11-10T02:14:00.705634+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N229",
+  "date": "20260314",
+  "players": 24,
+  "sha256": "52806e00639a84ea6107f04932327b6f9e0dc6e9761260c61bdcd05d07ce30d5",
+  "observed_at_utc": "2026-11-10T02:14:01.784697+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N230",
+  "date": "20260314",
+  "players": 24,
+  "sha256": "687f92f0bf0803e434b812c8fd8fa1a6ac84d4a5ce2d20ac09c3aaf56ece61c3",
+  "observed_at_utc": "2026-11-10T02:14:02.859654+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N231",
+  "date": "20260314",
+  "players": 24,
+  "sha256": "872d677753f628be31df3db1e39e2aab97d60a1ccc413e8207cbdc5a92c490b0",
+  "observed_at_utc": "2026-11-10T02:14:03.941255+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N232",
+  "date": "20260315",
+  "players": 24,
+  "sha256": "06116c1da6d838ea5bf575461d164b34dfabcb7949bcb6cc07f443abf4d84536",
+  "observed_at_utc": "2026-11-10T02:14:05.017821+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N233",
+  "date": "20260315",
+  "players": 24,
+  "sha256": "951edf7b554d01385ac651026619921a8d6d13f099df715db9b0b42c1979b80f",
+  "observed_at_utc": "2026-11-10T02:14:06.101603+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N234",
+  "date": "20260315",
+  "players": 24,
+  "sha256": "94dbb8c879b2e954f818bcdaed46999dfe54da2a4d1c056db0383c2b02b8f077",
+  "observed_at_utc": "2026-11-10T02:14:07.179659+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N235",
+  "date": "20260316",
+  "players": 24,
+  "sha256": "c28687c0a264568e95095037b1389145cb3ad8b149b7ece1a01cf9db2fd921fe",
+  "observed_at_utc": "2026-11-10T02:14:08.266662+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N236",
+  "date": "20260318",
+  "players": 24,
+  "sha256": "bfbf3cc0f16b6286a51a3910ff4bd2ba301b580c61f2e7f0153c9aa47bcb5816",
+  "observed_at_utc": "2026-11-10T02:14:09.352608+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N237",
+  "date": "20260319",
+  "players": 24,
+  "sha256": "78703db7e81e620d7165bff90e0e1e1da789c527a86ddc09f1f112bf709eac2c",
+  "observed_at_utc": "2026-11-10T02:14:10.422625+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N238",
+  "date": "20260320",
+  "players": 24,
+  "sha256": "6c7e8052e5cbf56a27522c8219eff67ec2b1b4a44767f2a49079e466bcf89ed1",
+  "observed_at_utc": "2026-11-10T02:14:11.500718+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N239",
+  "date": "20260321",
+  "players": 24,
+  "sha256": "6b37f2a70b0f88776c7960f8710d796a53b9c2c49c31c8e0c975d007b0c8a8b7",
+  "observed_at_utc": "2026-11-10T02:14:12.583643+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N240",
+  "date": "20260321",
+  "players": 24,
+  "sha256": "cab0b538ad9f44c05f1ad58eaf0e339f9cd255e562dc694bdae10ccdb134e5a5",
+  "observed_at_utc": "2026-11-10T02:14:13.669076+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N241",
+  "date": "20260322",
+  "players": 24,
+  "sha256": "55dcd60cc662c6c4b7885751440e6fb46c3ea09ea856094c73a4755ab43b9342",
+  "observed_at_utc": "2026-11-10T02:14:14.741726+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N242",
+  "date": "20260322",
+  "players": 24,
+  "sha256": "6e0a31a51eb6cf1d5a8581ef9c01ee8291ba60299c46f03ca71c01582cfdc063",
+  "observed_at_utc": "2026-11-10T02:14:15.822703+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N243",
+  "date": "20260323",
+  "players": 24,
+  "sha256": "b9d2ad1f1244259694f6c4e9660036ea2b0156717fd232420fc0dc284a36b627",
+  "observed_at_utc": "2026-11-10T02:14:16.904168+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N244",
+  "date": "20260324",
+  "players": 24,
+  "sha256": "7759c5cf5390d0606ebe704a796287e603de7da68445a3b9b6f17ec5a2b69a01",
+  "observed_at_utc": "2026-11-10T02:14:17.980735+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N245",
+  "date": "20260325",
+  "players": 24,
+  "sha256": "707269802de3745abe011c7c99fff6657c6ac529a09686c2b4825f834610adf5",
+  "observed_at_utc": "2026-11-10T02:14:19.059864+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N246",
+  "date": "20260326",
+  "players": 24,
+  "sha256": "06905f71d80b6444fc91e4fbd0ba39439dec202308d458a1ab09aebf561e2d75",
+  "observed_at_utc": "2026-11-10T02:14:20.137649+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N247",
+  "date": "20260327",
+  "players": 24,
+  "sha256": "32a5a14dd695f94774c45c0395f59fcf168eaeff09bb6fd2ede83b7189767f5d",
+  "observed_at_utc": "2026-11-10T02:14:21.223752+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N248",
+  "date": "20260328",
+  "players": 24,
+  "sha256": "26653c97e2cb92aaf57fa4e2bc7518c4820261c86c73dadae2328c06aeea5650",
+  "observed_at_utc": "2026-11-10T02:14:22.300991+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N249",
+  "date": "20260328",
+  "players": 24,
+  "sha256": "2c9b626e665c8b01171490ec552c7ea42844b33fb1a61d714c7f38f70ea0c88f",
+  "observed_at_utc": "2026-11-10T02:14:23.380560+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N250",
+  "date": "20260328",
+  "players": 24,
+  "sha256": "bf51c3c16dbe93a6dc95e90d0d20dc4d78b348f6d54c0dc329e96607fcb82ff2",
+  "observed_at_utc": "2026-11-10T02:14:24.460599+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N251",
+  "date": "20260329",
+  "players": 24,
+  "sha256": "27f774a846b3fed957ad98cf8c76c2b3afbcf786091154fb195520caaaa1c45f",
+  "observed_at_utc": "2026-11-10T02:14:25.540997+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N252",
+  "date": "20260329",
+  "players": 24,
+  "sha256": "4888a1920435fde68f5fabde34d1ec0d3605afbfd20633590e83b7f5473d54de",
+  "observed_at_utc": "2026-11-10T02:14:26.620518+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N253",
+  "date": "20260329",
+  "players": 24,
+  "sha256": "60a50a9dc0114c2a3875384b6937d7263c1431bfc4e1dc114dcacc66ab11fd7f",
+  "observed_at_utc": "2026-11-10T02:14:27.702974+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N254",
+  "date": "20260330",
+  "players": 24,
+  "sha256": "e128b2f73af6229cb1a12fffd3bc5a412be7582fcbe4936c3b482f034accc9cf",
+  "observed_at_utc": "2026-11-10T02:14:28.784165+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N255",
+  "date": "20260331",
+  "players": 24,
+  "sha256": "e8443de11c6f220b86d3dec5552ab8bdb7cbf2d3f29418dec8a392205a0a772b",
+  "observed_at_utc": "2026-11-10T02:14:29.858930+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N256",
+  "date": "20260401",
+  "players": 24,
+  "sha256": "1db908d0fc588d844410e7884f060447344a6a37f83c7f0c3a251ce4cd0d8c91",
+  "observed_at_utc": "2026-11-10T02:14:30.967755+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N257",
+  "date": "20260402",
+  "players": 24,
+  "sha256": "0cc1e5cfa69fe0ba0f0a51811b2f5ca8223a3c1fd3fdcb745ea59aa628c65bf0",
+  "observed_at_utc": "2026-11-10T02:14:32.020016+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N258",
+  "date": "20260403",
+  "players": 24,
+  "sha256": "c3e741890a4a1f31c180e14c650348702a767665b513c44916fe1e7bdf121162",
+  "observed_at_utc": "2026-11-10T02:14:33.100702+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N259",
+  "date": "20260404",
+  "players": 24,
+  "sha256": "3a1d949de58f1077d332a52f67239055e5a93c79a7836a7ca2bd2d7a590b715a",
+  "observed_at_utc": "2026-11-10T02:14:34.180259+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N260",
+  "date": "20260404",
+  "players": 24,
+  "sha256": "6b70aa08e69d718b79967137859f07b1840c4eb94efc90d638b9db745e7fed69",
+  "observed_at_utc": "2026-11-10T02:14:35.265132+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N261",
+  "date": "20260404",
+  "players": 24,
+  "sha256": "fad5004c3f2db60b21a939b87590d67d7ef1490231552d491818ebbb41acfb61",
+  "observed_at_utc": "2026-11-10T02:14:36.343695+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N262",
+  "date": "20260405",
+  "players": 24,
+  "sha256": "d404fd4ff569bd3724d83c9899522a3dc2694d49a6c34e91d24cb89c3f51ab61",
+  "observed_at_utc": "2026-11-10T02:14:37.426927+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N263",
+  "date": "20260405",
+  "players": 24,
+  "sha256": "42ea596f986db044fa3e5fd1e390224e2215fe1a7b658211f2771cc227084270",
+  "observed_at_utc": "2026-11-10T02:14:38.500644+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N264",
+  "date": "20260405",
+  "players": 24,
+  "sha256": "a5f65c4e131b0a224d5fe6fc3fae619f56efc3cef49de64961f2e9727e99e60b",
+  "observed_at_utc": "2026-11-10T02:14:39.585406+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N265",
+  "date": "20260406",
+  "players": 24,
+  "sha256": "b42786e2d873fcb084938f88485099a85de27c34fc11fed5782ef4dae9a00b2e",
+  "observed_at_utc": "2026-11-10T02:14:40.664271+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N266",
+  "date": "20260408",
+  "players": 24,
+  "sha256": "cb4fdca545aad35d929cf5b353165ab5dfeedc2e54240188ccb2305d6afc5494",
+  "observed_at_utc": "2026-11-10T02:14:41.741235+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N267",
+  "date": "20260408",
+  "players": 24,
+  "sha256": "bd12818537a0060a1cc364ba5881383bd4b394d79f9043efbd40865cefc03ebd",
+  "observed_at_utc": "2026-11-10T02:14:42.825264+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N268",
+  "date": "20260408",
+  "players": 24,
+  "sha256": "144aa91389ff5c5ff93ebf36519b5eef37cdb2f9dedd360d6ed65ba10e34f0b3",
+  "observed_at_utc": "2026-11-10T02:14:43.899825+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N269",
+  "date": "20260408",
+  "players": 24,
+  "sha256": "6531fc5ff3c2dde857291f0197f1eba2e1215e67ac10797dfd16dec6c12bed7b",
+  "observed_at_utc": "2026-11-10T02:14:44.980979+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S47G01N270",
+  "date": "20260408",
+  "players": 24,
+  "sha256": "316d5b631c490378f463ea8bc1a83e1b1a1412d46e486b420eaa25ee46a12bea",
+  "observed_at_utc": "2026-11-10T02:14:46.062647+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N1",
+  "date": "20261003",
+  "players": 24,
+  "sha256": "5f26f477f3380d6fa9b299e817d04aac6351b933990204e9e85e2a8a8500fff5",
+  "observed_at_utc": "2026-11-10T02:14:47.149243+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N2",
+  "date": "20261003",
+  "players": 24,
+  "sha256": "a621d19d17e5103b5acf9f08f1be8d252649043afa004e55617fd820be48cee8",
+  "observed_at_utc": "2026-11-10T02:14:48.227906+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N3",
+  "date": "20261003",
+  "players": 24,
+  "sha256": "756d59f57f108476f3f03e3f2273577f468295cef0ada98beb0a75ac7abef634",
+  "observed_at_utc": "2026-11-10T02:14:49.303950+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N4",
+  "date": "20261004",
+  "players": 24,
+  "sha256": "7b1c4518a304fc5f4d5acc267b729ec3a2fea06e9c3d7eb1b7138bc785b4145e",
+  "observed_at_utc": "2026-11-10T02:14:50.385798+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N5",
+  "date": "20261004",
+  "players": 24,
+  "sha256": "3807d4bb4cabf710fe7724abdb1e96e90deaabb193a616c25c862fc496a41729",
+  "observed_at_utc": "2026-11-10T02:14:51.461552+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N6",
+  "date": "20261005",
+  "players": 24,
+  "sha256": "d8067fe14fdec287e04b1ffbc785a2460df1d6cc0884f507538cce50261e2b20",
+  "observed_at_utc": "2026-11-10T02:14:52.543375+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N7",
+  "date": "20261005",
+  "players": 24,
+  "sha256": "2b7484c46b05d7257dfc3f8b462424b247020d773952c00fa8d0e6e22de2c986",
+  "observed_at_utc": "2026-11-10T02:14:53.623734+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N8",
+  "date": "20261006",
+  "players": 24,
+  "sha256": "e8e476b1080465053608ca3a41c6d4aa67acbb33b1684c4aca7a2c96c4f2e896",
+  "observed_at_utc": "2026-11-10T02:14:54.733392+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N9",
+  "date": "20261007",
+  "players": 24,
+  "sha256": "ad8a0013d323a1077ba8f47d751f75fbdf032fae98b3ba3ef4c43a9019c6bb7b",
+  "observed_at_utc": "2026-11-10T02:14:55.786161+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N10",
+  "date": "20261008",
+  "players": 24,
+  "sha256": "0444c19dad71b785adf8f3794c53e5b6558566fc025ce3e5966b90e8b31c968b",
+  "observed_at_utc": "2026-11-10T02:14:56.864139+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N11",
+  "date": "20261009",
+  "players": 24,
+  "sha256": "684b08b9ba76ab00ee63a25e25266ff9497c5526356a284089744b2a14cf4441",
+  "observed_at_utc": "2026-11-10T02:14:57.945746+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N12",
+  "date": "20261009",
+  "players": 24,
+  "sha256": "c4654c0c28138f556191063ccf1fdf5d08a47763b4c9b23cd26cd89eec64560b",
+  "observed_at_utc": "2026-11-10T02:14:59.027990+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N13",
+  "date": "20261010",
+  "players": 24,
+  "sha256": "6599ca9a3beb603715b687411b462891fb655a73447f6c948dc5c9512bf41482",
+  "observed_at_utc": "2026-11-10T02:15:00.117263+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N14",
+  "date": "20261010",
+  "players": 24,
+  "sha256": "238684f06407ac116d63c049353d2322c145e2c14a2c492b814f2c6e9042dab0",
+  "observed_at_utc": "2026-11-10T02:15:01.193829+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N15",
+  "date": "20261011",
+  "players": 24,
+  "sha256": "a7d23851069d995c3611ad374da7774859db12181c8d60df89de7945d47c1156",
+  "observed_at_utc": "2026-11-10T02:15:02.356676+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N16",
+  "date": "20261011",
+  "players": 24,
+  "sha256": "fae7fc8954c8952796a8beae1d65a4f3e2292305a5ed5a3343dc9d4bba902460",
+  "observed_at_utc": "2026-11-10T02:15:03.345950+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N17",
+  "date": "20261011",
+  "players": 24,
+  "sha256": "4bf0d49ad8de4dbd19556cd6fc17149e04e88f5b4139044ddc93dbf62059b61f",
+  "observed_at_utc": "2026-11-10T02:15:04.429096+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N18",
+  "date": "20261012",
+  "players": 24,
+  "sha256": "64743ebaba144ddddacacc607feeb209f31e4aba9d9860c25a8fdb0446205c93",
+  "observed_at_utc": "2026-11-10T02:15:05.506540+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N19",
+  "date": "20261013",
+  "players": 24,
+  "sha256": "d3ad5bc62774d8ca9d9d1544cc50adbb4bf114bb2edda9d8504ccfac51ff7c46",
+  "observed_at_utc": "2026-11-10T02:15:06.589726+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N20",
+  "date": "20261014",
+  "players": 24,
+  "sha256": "2459ec00dcfde3896b0472b5fe4d6b24973a4ff7a0c89d68d401884d3e1589ad",
+  "observed_at_utc": "2026-11-10T02:15:07.670629+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N21",
+  "date": "20261015",
+  "players": 24,
+  "sha256": "67e900c129e772901f19b72ffc67e71fc023654b592ec1d4c3e164418b865c6a",
+  "observed_at_utc": "2026-11-10T02:15:08.743426+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N22",
+  "date": "20261016",
+  "players": 24,
+  "sha256": "f49ebcc2620f872c3ec31bfbba4482b6ccb9c8aea12ef7c9e17bd4f6eab4a2df",
+  "observed_at_utc": "2026-11-10T02:15:09.825057+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N23",
+  "date": "20261017",
+  "players": 24,
+  "sha256": "0dfbd6c009b43534d709398d558d067d3f468622ba98f0b070604c08b7a4ae51",
+  "observed_at_utc": "2026-11-10T02:15:10.913998+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N24",
+  "date": "20261017",
+  "players": 24,
+  "sha256": "aa5e4bd8bc46d19324f6f7992047ce5444d5dad50d1f2cc98fb97140b662a485",
+  "observed_at_utc": "2026-11-10T02:15:11.989795+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N25",
+  "date": "20261017",
+  "players": 24,
+  "sha256": "0ee3214aa6386fbd6da43d3d96e8b82dcb48e850338ab87418387f3c4e9decad",
+  "observed_at_utc": "2026-11-10T02:15:13.066720+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N26",
+  "date": "20261018",
+  "players": 24,
+  "sha256": "26827e163d8713bc5c7c563fa1e71c03a20a57e5abbe21f0d5241824bb8a3174",
+  "observed_at_utc": "2026-11-10T02:15:14.151620+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N27",
+  "date": "20261018",
+  "players": 24,
+  "sha256": "f1e18170813d71b7f556a9a5e865c6baa9c550678fff7ba682cc89f165b408ea",
+  "observed_at_utc": "2026-11-10T02:15:15.231669+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N28",
+  "date": "20261018",
+  "players": 24,
+  "sha256": "77b51d61b18c8680f4b71472cd90d4e8619dfacd09a8b049311ac5387dfa9e27",
+  "observed_at_utc": "2026-11-10T02:15:16.310443+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N29",
+  "date": "20261019",
+  "players": 24,
+  "sha256": "c71bf2604b4b01641d4ff0c5f65ee565b2ed1c88ab878b0fcad5c22c62b3daf0",
+  "observed_at_utc": "2026-11-10T02:15:17.388301+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N30",
+  "date": "20261020",
+  "players": 24,
+  "sha256": "eb8cfba7355838a3505c39796f39d4010b9d57d039b2791218e9244662450d68",
+  "observed_at_utc": "2026-11-10T02:15:18.480395+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N31",
+  "date": "20261021",
+  "players": 24,
+  "sha256": "57928dcf0cf9cfb21d3e09a4ffd450a1d8be7199bdb1b9c3336117331ef6ea64",
+  "observed_at_utc": "2026-11-10T02:15:19.554182+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N32",
+  "date": "20261022",
+  "players": 24,
+  "sha256": "28b38d3901ab413a3c490c973ac9421b26b6e0ecd221bd4b8a2bf0328c7f6522",
+  "observed_at_utc": "2026-11-10T02:15:20.626769+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N33",
+  "date": "20261023",
+  "players": 24,
+  "sha256": "0c5c69e594687bee6b449e859efee2e06d04e65de1664e2bf3d91d7d6988135a",
+  "observed_at_utc": "2026-11-10T02:15:21.704338+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N34",
+  "date": "20261024",
+  "players": 24,
+  "sha256": "5ed0ae54cb68b96ecae7c2747c271adf76db6927bb43614ede6f7b60408df3f5",
+  "observed_at_utc": "2026-11-10T02:15:22.786078+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N35",
+  "date": "20261024",
+  "players": 24,
+  "sha256": "4d4755f37ae99ebb60901b11482e6cfa41ee2df98ec1fe8c90e123e7931f0ca1",
+  "observed_at_utc": "2026-11-10T02:15:23.867920+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N36",
+  "date": "20261024",
+  "players": 24,
+  "sha256": "14af7832c80bf77a1e5a581a0cf3ae69f2db9da6631c42e674d28bf34d38e544",
+  "observed_at_utc": "2026-11-10T02:15:24.953276+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N37",
+  "date": "20261025",
+  "players": 24,
+  "sha256": "6edd52dc3b404c47a2857f5de95d34f68dc1129f1c577c4104b15c4b6ea37069",
+  "observed_at_utc": "2026-11-10T02:15:26.025214+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N38",
+  "date": "20261025",
+  "players": 24,
+  "sha256": "236aa842aa442c00d6573f0b3308eb724ca285ecab79ce593d46ab1fdba1e4ca",
+  "observed_at_utc": "2026-11-10T02:15:27.112354+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N39",
+  "date": "20261025",
+  "players": 24,
+  "sha256": "4d12251f6e63ff3a7dae609d54dafc091870b67dc9655b6fdf453f8d6a63c207",
+  "observed_at_utc": "2026-11-10T02:15:28.187933+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N40",
+  "date": "20261026",
+  "players": 24,
+  "sha256": "b7c8ef868f449ce4540f913d50cea20f3b519d5128f1f6de72431eb408023ba8",
+  "observed_at_utc": "2026-11-10T02:15:29.270475+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N41",
+  "date": "20261027",
+  "players": 24,
+  "sha256": "ee159fbf50626ba4a514e370fb3acc2a2119c0a06af4d7967d86eac5d0a52426",
+  "observed_at_utc": "2026-11-10T02:15:30.349832+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N42",
+  "date": "20261028",
+  "players": 24,
+  "sha256": "9b04276ececd9e2d3de12f8a11ebc26d2ebe63f69b835e6951308ec62ebacb0a",
+  "observed_at_utc": "2026-11-10T02:15:31.427256+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N43",
+  "date": "20261029",
+  "players": 24,
+  "sha256": "30594c55ee3d8824fd70f2e559b7ecc3c0eebc4519d0cdcc3a0df7d97087f579",
+  "observed_at_utc": "2026-11-10T02:15:32.508119+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N44",
+  "date": "20261030",
+  "players": 24,
+  "sha256": "af36622f53931f6da645d535895df3b587df94c55ef7387f5752e0ce8824c18d",
+  "observed_at_utc": "2026-11-10T02:15:33.591533+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N45",
+  "date": "20261031",
+  "players": 24,
+  "sha256": "0df5ca6fa40731fffafcc67c2f0b8d699ba2702366dcb6a2729146bd2e3789b8",
+  "observed_at_utc": "2026-11-10T02:15:34.670637+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N46",
+  "date": "20261031",
+  "players": 24,
+  "sha256": "7aeb5b67b01fbec49cbe097887c4aa8d7f914a541c5cd9d87430a9f057036051",
+  "observed_at_utc": "2026-11-10T02:15:35.750947+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N47",
+  "date": "20261031",
+  "players": 24,
+  "sha256": "0a3e2a5ae0b8899944085c47ced181abb35ef906f16180ebd2b076514e3c2669",
+  "observed_at_utc": "2026-11-10T02:15:36.828959+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N48",
+  "date": "20261101",
+  "players": 24,
+  "sha256": "524ef5c4e6ac99bcb87004dac960f900031d462b336b57871582cecbcde4ae53",
+  "observed_at_utc": "2026-11-10T02:15:37.908852+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N49",
+  "date": "20261101",
+  "players": 24,
+  "sha256": "319f177aa08fdecef6978483857fe8d9088377612c559a9067bd36d0777ca5a8",
+  "observed_at_utc": "2026-11-10T02:15:38.989013+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N50",
+  "date": "20261101",
+  "players": 24,
+  "sha256": "979ff23a510541690132f560ffa78827d194dea3169b601c01766966de5208c4",
+  "observed_at_utc": "2026-11-10T02:15:40.071679+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N51",
+  "date": "20261102",
+  "players": 24,
+  "sha256": "d8eadd88c9d480f8da36d5beb57075bd27f401edfde344264af818a11ce5add1",
+  "observed_at_utc": "2026-11-10T02:15:41.150952+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N52",
+  "date": "20261103",
+  "players": 24,
+  "sha256": "ccad4fabe8e4051e3a711d52c492c1bde1b0dd519316fe7eeec5473c251d2031",
+  "observed_at_utc": "2026-11-10T02:15:42.238435+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N53",
+  "date": "20261104",
+  "players": 24,
+  "sha256": "912c5073e399741416feacb0c4ab435120a43cd6b2b67fa54bc65566f8b86364",
+  "observed_at_utc": "2026-11-10T02:15:43.314157+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N54",
+  "date": "20261105",
+  "players": 24,
+  "sha256": "0d4e7bfbf12bb902f033204fadc59ce8a0f8f8e9472fcfc54ef059b354edfd81",
+  "observed_at_utc": "2026-11-10T02:15:44.390580+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N55",
+  "date": "20261106",
+  "players": 24,
+  "sha256": "aaf74ace6a7f34faac97b9306c9431228f95ccba5aa7928c412dacc9a319bfa8",
+  "observed_at_utc": "2026-11-10T02:15:45.469212+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N56",
+  "date": "20261107",
+  "players": 24,
+  "sha256": "ec96ca1f223727382803007fa1d33721f56d9e77120ae844fc2a7d8a513fb7d0",
+  "observed_at_utc": "2026-11-10T02:15:46.551154+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N57",
+  "date": "20261107",
+  "players": 24,
+  "sha256": "eac88ed5089dfca78ea63cf45f50962c96ce98b9cd3e98242aaed391cc705d23",
+  "observed_at_utc": "2026-11-10T02:15:47.629613+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N58",
+  "date": "20261107",
+  "players": 24,
+  "sha256": "898594ca85d63db3d35d2fe9d17acddb3cbfdd04499e814e398c151cf6ebfab9",
+  "observed_at_utc": "2026-11-10T02:15:48.716225+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N59",
+  "date": "20261108",
+  "players": 24,
+  "sha256": "7280c72fc11e696c319035ab6d57513ecf79f516255bbe172e6e3e6a970220b9",
+  "observed_at_utc": "2026-11-10T02:15:49.944340+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N60",
+  "date": "20261108",
+  "players": 24,
+  "sha256": "7fd25d6900eaa14ee194f21d19175da0874172f0806fc2eead7cb3bc619e9bd2",
+  "observed_at_utc": "2026-11-10T02:15:51.031060+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N61",
+  "date": "20261108",
+  "players": 24,
+  "sha256": "d312e1018841be2750a29400bf95d8ded0e33d62e1dab71643b6826ea4eb40f9",
+  "observed_at_utc": "2026-11-10T02:15:52.116758+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ },
+ {
+  "gmkey": "S49G01N62",
+  "date": "20261109",
+  "players": 24,
+  "sha256": "e76dc129902ef17bbd24c284433241a5bfb07a1b4d70013cbc74f51c4185ef33",
+  "observed_at_utc": "2026-11-10T02:15:53.202879+00:00",
+  "status": "SCORE_AND_TEAM_CHECKED"
+ }
+]
