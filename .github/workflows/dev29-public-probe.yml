@@ -1,0 +1,24 @@
+name: Dev29 verified public-source probe
+on:
+  push:
+    branches: [audit/nba-kbl-dev29-public-join]
+    paths: ["research/dev29_source_ingest/probe_public.py", ".github/workflows/dev29-public-probe.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch-public:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - name: Bounded API fetch (five requests)
+        run: python research/dev29_source_ingest/probe_public.py
+      - name: Commit verified factual ID candidates (no secrets, no live model)
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add research/dev29_source_ingest
+          git diff --cached --quiet || { git commit -m "data: dev29 public API source observations (research only)" && git push; }
