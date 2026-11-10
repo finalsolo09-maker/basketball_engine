@@ -39,7 +39,16 @@ def test_no_leakage_and_shrinkage():
 
     # 미래 행 값 조작
     df_modified = df.copy()
-    df_modified.loc[df_modified["game_id"] == built_df["game_id"].iloc[-1], "pts"] = 999
+    future_id = built_df["game_id"].iloc[-1]
+    home_mask = (df_modified["game_id"] == future_id) & (df_modified["is_home"] == 1)
+    away_mask = (df_modified["game_id"] == future_id) & (df_modified["is_home"] == 0)
+    new_pts = int(df_modified.loc[home_mask, "pts"].iloc[0]) + 11
+    away_pts = int(df_modified.loc[away_mask, "pts"].iloc[0])
+    if new_pts == away_pts:
+        new_pts += 2
+    # 미래 경기의 최종 승패 및 상호 점수는 유효하게 유지한다.
+    df_modified.loc[home_mask, "pts"] = new_pts
+    df_modified.loc[away_mask, "opp_pts"] = new_pts
     built_df_mod = builder.build_features(df_modified)
     modified_feature_val = built_df_mod.loc[built_df_mod["game_id"] == target_game_id, "elo_pre"].values[0]
 
