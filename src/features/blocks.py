@@ -1,12 +1,12 @@
 """개별 피처 공학 블록 구현 모듈."""
 
+import logging
 import numpy as np
 import pandas as pd
-logger = logging.getLogger(__name__)
 
 from src.features.base import FeatureBlock
-from src.features.elo import EloCalculator
-import logging
+
+logger = logging.getLogger(__name__)
 
 class ScheduleFeatureBlock(FeatureBlock):
     """일정 및 피로도 관련 피처 블록."""
@@ -16,47 +16,38 @@ class ScheduleFeatureBlock(FeatureBlock):
         return ["rest_days", "is_back_to_back", "games_last_7d", "season_game_number"]
 
     def transform(self, df: pd.DataFrame) -> pd.DataFrame:
-        df = df.copy()
-        df = df.sort_values(["team", "date", "game_id"]).reset_index(drop=True)
+        """대상일 이전 경기만 참조한다. 동일 날짜 경기는 서로 관측하지 않는다."""
+        out = df.copy()
+        out["date"] = pd.to_datetime(out["date"])
+        out = out.sort_values(["team", "date", "game_id"]).reset_index(drop=True)
+        default = int(self.config.get("rest_days_default", 3))
+        cap = int(self.config.get("rest_days_cap", 7))
+        for col in self.columns:
+            out[col] = 0
 
-        rest_default = self.config.get("rest_days_default", 3)
-        rest_cap = self.config.get("rest_days_cap", 7)
-
-        rest_days_list = []
-        b2b_list = []
-        games_7d_list = []
-        season_game_num_list = []
-
-        for team, group in df.groupby("team"):
-            dates = group["date"].tolist()
-            prev_date = None
-            team_games = 0
-
-            for i, d in enumerate(dates):
-                team_games += 1
-                season_game_num_list.append(team_games)
-
-                if prev_date is None:
-                    rest = rest_default
-                else:
-                    rest = (d - prev_date).days
-                rest = min(rest, rest_cap)
-                rest_days_list.append(rest)
-                b2b_list.append(1 if rest <= 1 else 0)
-
-                # 최근 7일 내 경기 수
-                window_start = d - pd.Timedelta(days=7)
-                count_7d = sum(1 for pd_dt in dates[:i+1] if window_start <= pd_dt <= d)
-                games_7d_list.append(count_7d)
-
-                prev_date = d
-
-        df["rest_days"] = rest_days_list
-        df["is_back_to_back"] = b2b_list
-        df["games_last_7d"] = games_7d_list
-        df["season_game_number"] = season_game_num_list
-        return df
-
+        for team, indices in out.groupby("team", sort=False).groups.items():
+            played_dates = []
+            season_dates = {}
+            for i in indices:
+                date = out.at[i, "date"]
+                season = out.at[i, "season"]
+                previous = [d for d in played_dates if d < date]
+                last = max(previous) if previous else None
+                gap = (date - last).days if last is not None else None
+                out.at[i, "rest_days"] = (min(max(0, gap - 1), cap)
+                                           if gap is not None else default)
+                out.at[i, "is_back_to_back"] = int(gap == 1)
+                out.at[i, "games_last_7d"] = sum(
+                    date - pd.Timedelta(days=7) < d < date for d in played_dates
+                )
+                out.at[i, "season_game_number"] = (
+                    sum(d < date for d in season_dates.get(season, [])) + 1
+                )
+                # 실제 결과가 있는 경기만 다음 날짜의 이력으로 누적
+                if pd.notna(out.at[i, "pts"]):
+                    played_dates.append(date)
+                    season_dates.setdefault(season, []).append(date)
+        return out
 
 class RollingStatsFeatureBlock(FeatureBlock):
     """기본 박스스코어 및 효율성 지표 롤링/EWMA 피처 블록."""
@@ -81,19 +72,19 @@ class RollingStatsFeatureBlock(FeatureBlock):
         league_priors = self.config.get("league_priors", {"pace": 99.0, "ortg": 114.0, "pts": 112.0})
 
         # 경기별 소스 계산
-        team_poss = df["fga"] - df["oreb"] + df["tov"] + 0.44 * df["fta"]
+        df["team_poss"] = df["fga"] - df["oreb"] + df["tov"] + 0.44 * df["fta"]
         # 상대 행 결합을 위한 임시 테이블 구성
         # 각 game_id에서 홈/원정 상대방 정보를 매핑
         opp_df = df[["game_id", "team", "dreb", "team_poss"]].copy()
         opp_df.columns = ["game_id", "opponent", "opp_dreb", "opp_team_poss"]
         
         merged = pd.merge(df, opp_df, on=["game_id", "opponent"], how="left")
-        merged["game_poss"] = (team_poss + merged["opp_team_poss"]) / 2
+        merged["game_poss"] = (merged["team_poss"] + merged["opp_team_poss"]) / 2
         merged["pace"] = reg_mins * merged["game_poss"] / merged["game_minutes"]
-        merged["ortg"] = 100 * merged["pts"] / team_poss.replace(0, 1)
-        merged["drtg"] = 100 * merged["opp_pts"] / merged["opp_team_poss"].replace(0, 1)
+        merged["ortg"] = 100 * merged["pts"] / merged["team_poss"].replace(0, np.nan)
+        merged["drtg"] = 100 * merged["opp_pts"] / merged["opp_team_poss"].replace(0, np.nan)
         merged["net_rtg"] = merged["ortg"] - merged["drtg"]
-        merged["efg_pct"] = (merged["fgm"] + 0.5 * merged["fg3m"]) / merged["fga"].replace(0, 1)
+        merged["efg_pct"] = (merged["fgm"] + 0.5 * merged["fg3m"]) / merged["fga"].replace(0, np.nan)
         merged["tov_pct"] = merged["tov"] / (merged["fga"] + 0.44 * merged["fta"] + merged["tov"]).replace(0, 1)
         merged["orb_pct"] = merged["oreb"] / (merged["oreb"] + merged["opp_dreb"]).replace(0, 1)
         merged["ft_rate"] = merged["fta"] / merged["fga"].replace(0, 1)
