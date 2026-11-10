@@ -1,0 +1,14 @@
+{
+  "league": "KBL",
+  "season": "2026-27",
+  "foreign_players_on_court_quarter_max": {
+    "Q1": 1,
+    "Q2": 2,
+    "Q3": 2,
+    "Q4": 1
+  },
+  "evidence_url": "https://kbl.or.kr/rule/player",
+  "evidence_level": "OFFICIAL_WEB_RULE_NOT_VALIDATED_PREGAME",
+  "source_published_at_utc": null,
+  "model_weight_approved": false
+}
