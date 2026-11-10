@@ -45,29 +45,28 @@ class FeatureBuilder:
         return working_df
 
     def _add_matchup_derived_features(self, df: pd.DataFrame) -> pd.DataFrame:
-        """홈/원정 간 상대 비교 매치업 피처를 계산합니다."""
-        df = df.copy()
-        # 홈 행과 원정 행을 짝지어 매치업 피처 생성
-        # 간이 구현: 경기 내 원정팀 롤링 값을 홈팀 행에 매핑
-        if "ortg_roll_5" in df.columns:
-            away_subset = df[df["is_home"] == 0][["game_id", "ortg_roll_5", "drtg_roll_5", "pace_roll_5"]].copy()
-            away_subset.columns = ["game_id", "away_ortg_roll_5", "away_drtg_roll_5", "away_pace_roll_5"]
-            
-            df = pd.merge(df, away_subset, on="game_id", how="left")
-            
-            # 홈팀 행 기준 매치업 피처
-            mask_home = df["is_home"] == 1
-            df.loc[mask_home, "matchup_ortg_diff"] = df.loc[mask_home, "ortg_roll_5"] - df.loc[mask_home, "away_drtg_roll_5"]
-            df.loc[mask_home, "matchup_drtg_diff"] = df.loc[mask_home, "drtg_roll_5"] - df.loc[mask_home, "away_ortg_roll_5"]
-            df.loc[mask_home, "expected_pace"] = (df.loc[mask_home, "pace_roll_5"] + df.loc[mask_home, "away_pace_roll_5"]) / 2
-            df.loc[mask_home, "naive_home_pts"] = df.loc[mask_home, "expected_pace"] * (df.loc[mask_home, "ortg_roll_5"] + df.loc[mask_home, "away_drtg_roll_5"]) / 200
-
-            # 원정팀 행 기준 매치업 피처 (대칭)
-            mask_away = df["is_home"] == 0
-            df.loc[mask_away, "matchup_ortg_diff"] = df.loc[mask_away, "ortg_roll_5"] - df.loc[mask_away, "drtg_roll_5"] # 임시 매핑
-            df.loc[mask_away, "matchup_drtg_diff"] = 0.0
-            df.loc[mask_away, "expected_pace"] = df.loc[mask_away, "pace_roll_5"]
-            df.loc[mask_away, "naive_home_pts"] = 0.0
-
-            df.fillna(0.0, inplace=True)
-        return df
+        """상대 팀의 경기 전 롤링값을 대칭 결합한다. 미확정값은 0으로 조작하지 않는다."""
+        out = df.copy()
+        windows = self.global_config["features"].get("rolling_windows", [5, 10])
+        w = int(windows[0])
+        base = [f"ortg_roll_{w}", f"drtg_roll_{w}", f"pace_roll_{w}"]
+        if not all(col in out.columns for col in base):
+            raise KeyError("상대 전력 피처를 만들 롤링 컬럼이 누락되었습니다.")
+        other = out[["game_id", "team", *base]].rename(
+            columns={
+                "team": "opponent",
+                base[0]: "opp_ortg",
+                base[1]: "opp_drtg",
+                base[2]: "opp_pace",
+            }
+        )
+        out = out.merge(
+            other, on=["game_id", "opponent"], how="left", validate="one_to_one"
+        )
+        out["matchup_ortg_diff"] = out[base[0]] - out["opp_drtg"]
+        out["matchup_drtg_diff"] = out[base[1]] - out["opp_ortg"]
+        out["expected_pace"] = (out[base[2]] + out["opp_pace"]) / 2.0
+        out["naive_home_pts"] = out["expected_pace"] * (
+            out[base[0]] + out["opp_drtg"]
+        ) / 200.0
+        return out.drop(columns=["opp_ortg", "opp_drtg", "opp_pace"])
