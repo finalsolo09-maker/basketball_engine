@@ -1,0 +1,52 @@
+{
+  "created": "2026-11-10T01:59:22.760257+00:00",
+  "no_secrets": true,
+  "no_full_asof_claim": true,
+  "sources": [
+    {
+      "task": "kbl_directory",
+      "url": "https://api.kbl.or.kr/players",
+      "observed_at_utc": "2026-11-10T01:58:58.514665+00:00",
+      "status": "BLOCKED_FETCH_OR_SCHEMA",
+      "http_status": null,
+      "rows_usable": 0,
+      "error": "<HTTPError 400: ''>"
+    },
+    {
+      "task": "kbl_box_2025_26",
+      "url": "https://api.kbl.or.kr/match/S47G01N49/player-stat",
+      "observed_at_utc": "2026-11-10T01:59:00.002006+00:00",
+      "status": "BLOCKED_FETCH_OR_SCHEMA",
+      "http_status": null,
+      "rows_usable": 0,
+      "error": "<HTTPError 400: ''>"
+    },
+    {
+      "task": "kbl_box_2026_27",
+      "url": "https://api.kbl.or.kr/match/S49G01N57/player-stat",
+      "observed_at_utc": "2026-11-10T01:59:01.506859+00:00",
+      "status": "BLOCKED_FETCH_OR_SCHEMA",
+      "http_status": null,
+      "rows_usable": 0,
+      "error": "<HTTPError 400: ''>"
+    },
+    {
+      "task": "nba_current_roster",
+      "url": "https://stats.nba.com/stats/commonallplayers?LeagueID=00&Season=2026-27&IsOnlyCurrentSeason=1",
+      "observed_at_utc": "2026-11-10T01:59:02.983216+00:00",
+      "status": "BLOCKED_FETCH_OR_SCHEMA",
+      "http_status": null,
+      "rows_usable": 0,
+      "error": "TimeoutError('The read operation timed out')"
+    },
+    {
+      "task": "nba_player_list",
+      "url": "https://www.nba.com/players",
+      "observed_at_utc": "2026-11-10T01:59:21.818484+00:00",
+      "status": "BLOCKED_FETCH_OR_SCHEMA",
+      "http_status": null,
+      "rows_usable": 0,
+      "error": "<HTTPError 403: 'Forbidden'>"
+    }
+  ]
+}
