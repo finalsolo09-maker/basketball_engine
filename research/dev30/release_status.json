@@ -1,0 +1,28 @@
+{
+  "version": "dev30",
+  "as_of_date": "2026-11-10",
+  "scope": "RESEARCH_ACTIVE_ONLY",
+  "base_dev29_sha256": "e622b7189254ecc49d44250211be43d0c1f016c25a1bcd59516be524d9b92e7c",
+  "dev30_research_db_sha256": "dc3bbb3380501ebc58bb9f190387243f0c03babb30c545b19129c62c1db0a6ec",
+  "tests": {
+    "dev30": 24,
+    "dev29": 19,
+    "total": 43,
+    "passed": 43
+  },
+  "original_tables_unchanged": 115,
+  "neutral_fixtures_classified": 10,
+  "active_research_scoring": [
+    "NBA_historical_players_and_tactics",
+    "KBL_historical_players_and_tactics"
+  ],
+  "nba_holdout_replayed": 267,
+  "kbl_holdout_replayed": 53,
+  "production_promoted": false,
+  "reasons": [
+    "asof timestamps unknown",
+    "unverified current player availability",
+    "prospective model validation missing",
+    "win5 classification logloss worsened"
+  ]
+}
