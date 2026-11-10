@@ -1,0 +1,43 @@
+{
+  "collected_at_utc": "2026-11-10T02:22:46.664718+00:00",
+  "source_logs": [
+    {
+      "season": "2024-25",
+      "url": "https://raw.githubusercontent.com/xtheredshirtx/fanduel-player-data/4ef70fbc66425e48090656dcf6ddde2ddc18938d/NBA/csv/NBA_players_game_log_2024-25_as_of_2026-11-09.csv",
+      "git_blob_sha1": "496e6305e9da38b12d887f0f6e4cd8b333873d67",
+      "sha256": "3c059e78aac22a88b6617992bc08336abd7bfc98fd97e908a6ce38e824297210",
+      "rows": 27999
+    },
+    {
+      "season": "2025-26",
+      "url": "https://raw.githubusercontent.com/xtheredshirtx/fanduel-player-data/4ef70fbc66425e48090656dcf6ddde2ddc18938d/NBA/csv/NBA_players_game_log_2025-26_as_of_2026-11-09.csv",
+      "git_blob_sha1": "0c3d4e594329cda6b48b7b4c16d7a26ef2262278",
+      "sha256": "2344916e9fa75a78fdf0b4a9eb15762653885bc7307d95c4c94c0834386e68f0",
+      "rows": 28465
+    },
+    {
+      "season": "2026-27",
+      "url": "https://raw.githubusercontent.com/xtheredshirtx/fanduel-player-data/4ef70fbc66425e48090656dcf6ddde2ddc18938d/NBA/csv/NBA_players_game_log_2026-27_as_of_2026-11-09.csv",
+      "git_blob_sha1": "fb0156fe6e924929041d95738d6ff56f5ca3c99e",
+      "sha256": "d5a723a33fa984542252d2fc1f1ee5dce35ba9457f40e3f6641f4e1068ef88df",
+      "rows": 3281
+    }
+  ],
+  "people": 411,
+  "season_rows": 1233,
+  "counts": {
+    "2024-25_with_game_log": 314,
+    "2025-26_with_game_log": 356,
+    "2026-27_with_game_log": 410,
+    "espn_matched_any_team": 409,
+    "espn_same_as_internal": 324,
+    "espn_different_from_internal": 85,
+    "espn_no_name_match": 2
+  },
+  "stat_identity_mismatch_rows": {},
+  "current_espn_roster_rows": 522,
+  "interpretation": "season played-team evidence, not current official registration; ESPN observed status only",
+  "allow_in_live_training": false,
+  "source": "third_party_player_game_logs",
+  "roster_evidence": "ESPN 2026-11-10 observation, not official NBA asof on past games"
+}
