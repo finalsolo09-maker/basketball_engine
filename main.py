@@ -2,11 +2,11 @@
 
 import argparse
 import json
+import hashlib
 import logging
 from pathlib import Path
 import pandas as pd
 from xgboost import XGBRegressor, XGBClassifier
-import joblib
 
 from src.config_loader import ConfigLoader
 from src.loader import CsvLoader
@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 def train_command(args):
     config = ConfigLoader.load(args.config)
     league = args.league.upper()
-    league_cfg = config["league_configs"].get(league, config["league_configs"]["KBL"])
+    league_cfg = config["league_configs"][league]
 
     logger.info(f"[{league}] 샘플 데이터 생성 및 학습 파이프라인 시작...")
     gen = SampleDataGenerator(seed=config["seed"])
@@ -62,20 +62,33 @@ def train_command(args):
     reg_a.save_model(model_dir / "regressor_away.json")
     clf.save_model(model_dir / "classifier_xgb.json")
     
-    if cv_results["calibrator"].calibrator is not None:
-        joblib.dump(cv_results["calibrator"], model_dir / "calibrator.joblib")
+    with open(model_dir / "calibrator.json", "w", encoding="utf-8") as f:
+        json.dump(cv_results["calibrator"].to_dict(), f, ensure_ascii=False, indent=2)
 
     metadata = {
         "league": league,
         "feature_columns": builder.feature_columns,
         "sigma_margin": cv_results["sigma_margin"],
         "sigma_total": cv_results["sigma_total"],
-        "ensemble_w": 0.5
+        "ensemble_w": 0.5,
+        "model_status": "SANITY_TESTED",
+        "data_evidence_grade": "SYNTHETIC",
+        "validation_mode": cv_results["validation_mode"],
+        "oof_n": cv_results["oof_n"],
+        "trained_until": str(pd.Timestamp(df["date"].max()).date()),
+        "artifact_sha256": {
+            name: hashlib.sha256((model_dir / name).read_bytes()).hexdigest()
+            for name in (
+                "regressor_home.json", "regressor_away.json",
+                "classifier_xgb.json", "calibrator.json"
+            )
+        }
     }
     with open(model_dir / "metadata.json", "w", encoding="utf-8") as f:
         json.dump(metadata, f, indent=4, ensure_ascii=False)
 
-    logger.info(f"[{league}] 모델 학습 완료 및 아티팩트 저장 성공: {model_dir}")
+    logger.warning("합성 데이터 파이프라인 검증용으로 실제 예측 성능이 아닙니다.")
+    logger.info(f"[{league}] 연구용 모델·해시 저장: {model_dir}")
 
 def predict_command(args):
     config = ConfigLoader.load(args.config)
@@ -101,12 +114,12 @@ def main():
 
     # Train CLI
     parser_train = subparsers.add_parser("train", help="모델 학습 및 아티팩트 저장")
-    parser_train.add_argument("--league", type=str, default="KBL", help="리그명 (NBA|KBL)")
+    parser_train.add_argument("--league", choices=["NBA", "KBL"], default="KBL", help="리그명 (NBA|KBL)")
     parser_train.add_argument("--config", type=str, default="config/config.yaml", help="설정 파일 경로")
 
     # Predict CLI
     parser_predict = subparsers.add_parser("predict", help="단건 경기 예측")
-    parser_predict.add_argument("--league", type=str, default="KBL", help="리그명 (NBA|KBL)")
+    parser_predict.add_argument("--league", choices=["NBA", "KBL"], default="KBL", help="리그명 (NBA|KBL)")
     parser_predict.add_argument("--home", type=str, required=True, help="홈팀 이름")
     parser_predict.add_argument("--away", type=str, required=True, help="원정팀 이름")
     parser_predict.add_argument("--date", type=str, required=True, help="경기 날짜 (YYYY-MM-DD)")
